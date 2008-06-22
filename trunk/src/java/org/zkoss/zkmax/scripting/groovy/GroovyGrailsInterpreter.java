@@ -7,9 +7,11 @@
 		
 	History:
 		Fri Feb  9 15:47:22     2007, Created by tomyeh
+		June 2008, A lot of improvement, by Chanwit
 }}IS_NOTE
 
 Copyright (C) 2007 Potix Corporation. All Rights Reserved.
+Copyright (C) 2008 Chanwit Kaewkasi
 
 {{IS_RIGHT
 	This program is distributed under GPL Version 2.0 in the hope that
