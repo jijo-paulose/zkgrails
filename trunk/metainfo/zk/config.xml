@@ -1,0 +1,7 @@
+<config>
+  <config-name>zkgrails</config-name>
+  <zscript-config>
+    <language-name>GroovyGrails</language-name>
+    <interpreter-class>org.zkoss.zkgrails.scripting.GroovyGrailsInterpreter</interpreter-class>
+  </zscript-config>
+</config>
