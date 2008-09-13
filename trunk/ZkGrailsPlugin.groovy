@@ -1,12 +1,12 @@
 class ZkGrailsPlugin {
 
-    def version = "0.5-ZK-35-FL"
+    def version = "0.6"
     def dependsOn = [:]
 
     // TODO Fill in these fields
     def author = "chanwit"
     def authorEmail = ""
-    def title = "ZK (3.5-FL) for Grails"
+    def title = "ZK (3.5) for Grails"
     def description = '''\
 Derived from Flyisland ZK Grails Plugin, This plugin adds ZK Ajax framework (www.zkoss.org) support into Grails applications
 '''
