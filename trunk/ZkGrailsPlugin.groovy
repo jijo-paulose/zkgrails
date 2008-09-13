@@ -1,6 +1,6 @@
 class ZkGrailsPlugin {
 
-    def version = 0.5
+    def version = 0.5-ZK-35-FL
     def dependsOn = [:]
 
     // TODO Fill in these fields
