@@ -70,9 +70,11 @@ From the code, you may see 2 properties `lstEmployee`, and `pagEmployee`. Both a
 
 You may notice that there is `afterCompose` closure. This closure is run by doAfterCompose, and it's a Groovy place to initialize your components.
 
-The auto-wired event handle `onPaging_pagEmployee` will be called everytime you click pagEmployee to change the active page. Note that, the signature of the handler must be ForwardEvent or Event to make it work.
+The auto-wired event handle `onPaging_pagEmployee` will be called everytime you click pagEmployee to change the active page. Note that, the only argument of the handler must be `ForwardEvent` or `Event` to make it work.
 
-I also show you the use of Groovy's default argument value declared at `redraw` method.
+I also show you the use of Groovy's default argument value declared at `redraw` method. That is, calling `redraw()` in `afterCompose` means `redraw(0)`.
+
+Also in `redraw` method, there are two places to use dynamic methods added by ZKGrails. The first one is listbox#clear, of which removes all listitem. The second one is append, which accepts component construction via ZK Builder.
 
 {{{
 import org.zkoss.zkgrails.*
