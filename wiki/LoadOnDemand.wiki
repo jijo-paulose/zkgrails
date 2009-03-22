@@ -16,7 +16,7 @@ $ `grails install-plugin zk`
 
 $ `grails create-domain-class employee`
 
-= Adding Properties for Employee
+= Adding Properties for Employee =
 
 {{{
 class Employee {
@@ -56,7 +56,7 @@ This will also create `grails-apps/composers/EmployeeComposer.groovy` for you.
 </window>
 }}}
 
-= Edit EmployeeComposer =
+= Edit `EmployeeComposer` =
 
 {{{
 import org.zkoss.zkgrails.*
@@ -99,4 +99,3 @@ class EmployeeComposer extends GrailsComposer {
 = Run the application =
 $ `grails run-app`
 and point your browser to http://localhost:8080/ondemand/employee.zul
-
