@@ -1,4 +1,5 @@
-#summary A technique to load data on-demand.
+#summary A tutorial to load data on-demand.
+#labels Featured
 
 = Introduction =
 
