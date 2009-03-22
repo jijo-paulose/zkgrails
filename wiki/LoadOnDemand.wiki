@@ -34,6 +34,7 @@ class Employee {
 = Create a zul page =
 
 $ `grails create-zul employee`
+
 This will also create `grails-apps/composers/EmployeeComposer.groovy` for you.
 
 = Edit employee.zul =
@@ -99,4 +100,5 @@ class EmployeeComposer extends GrailsComposer {
 
 = Run the application =
 $ `grails run-app`
+
 and point your browser to http://localhost:8080/ondemand/employee.zul
