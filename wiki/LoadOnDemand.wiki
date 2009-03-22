@@ -114,7 +114,7 @@ class EmployeeComposer extends GrailsComposer {
 
 == Testing Data ==
 
-Before getting your application run, you need some testing data to show. Open grails-app/conf/BootStrap.groovy, and then add the following snippet into `init` closure.
+Before getting your application run, you need some testing data to show. Open `grails-app/conf/BootStrap.groovy`, and then add the following snippet into `init` closure.
 
 {{{
      def init = { servletContext ->
@@ -124,7 +124,7 @@ Before getting your application run, you need some testing data to show. Open gr
      }
 }}}
 
-With the above code, we loop 1,000 times to create 1,000 domain objects of class Employee.
+With the above code, we loop 1,000 times to create 1,000 domain objects of class `Employee`.
 
 == Run the application ==
 $ `grails run-app`
