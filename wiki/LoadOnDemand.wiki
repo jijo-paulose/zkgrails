@@ -1,23 +1,21 @@
 #summary A tutorial to load data on-demand.
 #labels Featured
 
-= Introduction =
-
 This is a ZKGrails port of the program written in http://docs.zkoss.org/wiki/Use_Load-On-Demand_to_Handle_Huge_Data.
 
-= Create a Grails project =
+== Create a Grails project ==
 
 $ `grails create-app ondemand`
 
-= Install ZKGrails =
+== Install ZKGrails ==
 
 $ `grails install-plugin zk`
 
-= Create a domain class =
+== Create a domain class ==
 
 $ `grails create-domain-class employee`
 
-= Adding Properties for Employee =
+== Adding Properties for Employee ==
 
 {{{
 class Employee {
@@ -31,13 +29,13 @@ class Employee {
 
 }}}
 
-= Create a zul page =
+== Create a zul page ==
 
 $ `grails create-zul employee`
 
 This will also create `grails-apps/composers/EmployeeComposer.groovy` for you.
 
-= Edit employee.zul =
+== Edit employee.zul ==
 
 {{{
 <window apply="${employeeComposer}">
@@ -58,7 +56,7 @@ This will also create `grails-apps/composers/EmployeeComposer.groovy` for you.
 </window>
 }}}
 
-= Edit `EmployeeComposer` =
+== Edit `EmployeeComposer` ==
 
 {{{
 import org.zkoss.zkgrails.*
@@ -98,7 +96,7 @@ class EmployeeComposer extends GrailsComposer {
 }
 }}}
 
-= Run the application =
+== Run the application ==
 $ `grails run-app`
 
 and point your browser to http://localhost:8080/ondemand/employee.zul
