@@ -10,12 +10,12 @@ This Commercial License Agreement, including the grant of license and disclaimer
 use of the Licensed Software in any commercial manner.
 
 ==2. Restrictions==
-Except as otherwise expressly permitted in this Agreement, or in another agreement with me to which Licensee is a party, Licensee may not modify or create any derivative works of the Licensed Software; redistribute, sell, rent, lease, sublicense, or otherwise transfer rights of the Licensed Software. 
+Except as otherwise expressly permitted in this Agreement, or in another agreement with me to which the Licensee is a party, the Licensee may not modify or create any derivative works of the Licensed Software; redistribute, sell, rent, lease, sub-license, or otherwise transfer rights of the Licensed Software. 
 
 ==3. Termination==
-Without prejudice to any other rights, I may terminate this Agreement if Licensee breaches any of its terms and conditions.
+Without prejudice to any other rights, I may terminate this Agreement if the Licensee breaches any of its terms and conditions.
 
 ==4.  No Warranty.==
 THE SOFTWARE IS PROVIDED TO LICENSEE "AS IS," WITHOUT ANY WARRANTIES OF ANY KIND, INCLUDING, BUT NOT LIMITED TO, WARRANTIES CONCERNING THE INSTALLATION, USE OR PERFORMANCE OF THE LICENSED SOFTWARE. I DISCLAIM ANY AND ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF MERCHANTABILITY AND/OR FITNESS FOR A PARTICULAR PURPOSE. I DO NOT WARRANT THAT THE LICENSED SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE OPERATION THEREOF WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT ERRORS WILL BE CORRECTED.
-Without limiting the generality of the foregoing disclaimer, Licensed Software is not specifically designed, manufactured or intended for use in the planning, construction, maintenance, control, or direct operation of nuclear facilities; aircraft navigation, control or 
+Without limiting the generality of the foregoing disclaimer, the Licensed Software is not specifically designed, manufactured or intended for use in the planning, construction, maintenance, control, or direct operation of nuclear facilities; aircraft navigation, control or 
 communication systems; weapons systems; or direct life support systems. 
