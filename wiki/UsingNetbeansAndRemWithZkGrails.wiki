@@ -1,4 +1,4 @@
-#summary The article describes how to develop a ZK-Grails application using Netbeans with REM.
+#summary The article describes how to develop a ZKGrails application using Netbeans with REM.
 
 = Introduction =
 
