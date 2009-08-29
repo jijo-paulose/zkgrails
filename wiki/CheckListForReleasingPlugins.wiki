@@ -1,0 +1,8 @@
+#summary Check list for releasing plugin
+
+= Details =
+
+  * grails clean
+  * grails release -repository=zkgrails
+  * fetch plugin-meta manually
+  * change https to http and remove port number
