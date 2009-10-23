@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><plugins revision="0"><plugin latest-release="0.7.5" name="zk"><release tag="RELEASE_0_7_5" type="svn" version="0.7.5"><title>ZK for Grails</title><author>chanwit</author><authorEmail>chanwit@gmail.com</authorEmail><description>\
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugins revision="61"><plugin latest-release="1.0-M1" name="zk"><release tag="RELEASE_0_7_5" type="svn" version="0.7.5"><title>ZK for Grails</title><author>chanwit</author><authorEmail>chanwit@gmail.com</authorEmail><description>\
 Derived from Flyisland ZK Grails Plugin,
 this plugin adds ZK Ajax framework (www.zkoss.org)
 support to Grails applications.
-</description><documentation>http://grails.org/Zk+Plugin</documentation><file>http://zkgrails.googlecode.com/svn/plugins/grails-zk/tags/RELEASE_0_7_5/grails-zk-0.7.5.zip</file></release></plugin></plugins>
+</description><documentation>http://grails.org/Zk+Plugin</documentation><file>https://zkgrails.googlecode.com:443/svn/plugins/grails-zk/tags/RELEASE_0_7_5/grails-zk-0.7.5.zip</file></release><release tag="RELEASE_1_0-M1" type="svn" version="1.0-M1"><title>ZK for Grails</title><author>chanwit</author><authorEmail>chanwit@gmail.com</authorEmail><description>\
+Derived from Flyisland ZK Grails Plugin,
+this plugin adds ZK Ajax framework (www.zkoss.org)
+support to Grails applications.
+</description><documentation>http://grails.org/Zk+Plugin</documentation><file>https://zkgrails.googlecode.com:443/svn/plugins/grails-zk/tags/RELEASE_1_0-M1/grails-zk-1.0-M1.zip</file></release></plugin></plugins>
