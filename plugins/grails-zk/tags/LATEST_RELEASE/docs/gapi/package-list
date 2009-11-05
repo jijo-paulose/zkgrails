@@ -1,0 +1,6 @@
+DefaultPackage
+grails-app.conf
+scripts
+src.groovy.org.zkoss.zkgrails
+src.java.org.zkoss.zkgrails
+src.java.org.zkoss.zkgrails.scripting

@@ -1,0 +1,20 @@
+
+h1. getModel
+
+h2. Purpose
+
+
+
+h2. Examples
+
+{code:java}
+foo.getModel()
+{code}
+
+h2. Description
+
+
+
+Arguments:
+
+[]
