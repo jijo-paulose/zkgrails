@@ -1,7 +1,7 @@
-#summary Release notes for ZKGrails 0.7.6
+#summary Release note for ZKGrails 0.7.6
 #labels Featured
 
-= ZKGrails 0.7.6 Release Notes =
+= ZKGrails 0.7.6 Release note =
 
 9 Nov 2009. This version of ZKGrails is a maintenance release for 0.7 series. It supports Grails 1.1.1 and ZK 3.6.3.
 
