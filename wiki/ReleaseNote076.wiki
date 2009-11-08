@@ -1,4 +1,5 @@
 #summary Release notes for ZKGrails 0.7.6
+#labels Featured
 
 = ZKGrails 0.7.6 Release Notes =
 
