@@ -1,0 +1,12 @@
+#summary Release notes for ZKGrails 0.7.6
+
+= ZKGrails 0.7.6 Release Notes =
+
+9 Nov 2009. This version of ZKGrails is a maintenance release for 0.7 series. It supports Grails 1.1.1 and ZK 3.6.3.
+
+= Fixed Issues =
+
+  * Issue 68	Upgrade ZK for 0.7 series to 3.6.3
+  * Issue 69	Cherry-pick ZkBuilder's patch
+  * Issue 70	Backport onEvent to call invokeMethod in GrailsComposer 
+  * Issue 72	NPE on ZkBuilder with zkgrails 0.7.6
