@@ -1,0 +1,22 @@
+
+h1. propertyMissing
+
+h2. Purpose
+
+
+
+h2. Examples
+
+{code:java}
+foo.propertyMissing(string,object)
+{code}
+
+h2. Description
+
+
+
+Arguments:
+
+[* @string@
+, * @object@
+]
