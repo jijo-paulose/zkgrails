@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugins revision="68"><plugin latest-release="0.7.6" name="zk"><release tag="RELEASE_0_7_5" type="svn" version="0.7.5"><title>ZK for Grails</title><author>chanwit</author><authorEmail>chanwit@gmail.com</authorEmail><description>\
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><plugins revision="78"><plugin latest-release="0.7.6" name="zk"><release tag="RELEASE_0_7_5" type="svn" version="0.7.5"><title>ZK for Grails</title><author>chanwit</author><authorEmail>chanwit@gmail.com</authorEmail><description>\
 Derived from Flyisland ZK Grails Plugin,
 this plugin adds ZK Ajax framework (www.zkoss.org)
 support to Grails applications.
