@@ -1,13 +1,24 @@
-#summary Release note for ZKGrails 0.7.6
+#summary Release Note for ZKGrails 0.7.6
 #labels Featured
 
-= ZKGrails 0.7.6 Release note =
+= ZKGrails 0.7.6 Release Note =
 
-9 Nov 2009. This version of ZKGrails is a maintenance release for 0.7 series. It supports Grails 1.1.1 and ZK 3.6.3.
+30 Nov 2009. This version of ZKGrails is a maintenance release for 0.7 series. It supports Grails 1.1.2 and ZK 3.6.3.
 
-= Fixed Issues =
+= Issues =
 
+  * Issue 22    Support embeding ZUL into GSP (was Support render(zul:"index.zul"))
   * Issue 68	Upgrade ZK for 0.7 series to 3.6.3
   * Issue 69	Cherry-pick ZkBuilder's patch
   * Issue 70	Backport onEvent to call invokeMethod in GrailsComposer 
   * Issue 72	NPE on ZkBuilder with zkgrails 0.7.6
+  * Issue 73    Creating the "build" property for GrailsComposer
+
+= Enhancement =
+
+ * This version includes ZK 3.6.3.
+ * You can now embed a ZUL page (as fragments) into a GSP using two tags: `<z:head/>` and `<z:body/>`. So you can leverage UrlMapping and also Sitemesh decoration for your ZUL pages. Thanks wehe@gmx.at, for this contribution.
+
+  Both tags accept zul="your zul page" attribute, like: `<z:body zul="/test/index.zul"/>` And by default, it *automatically* detects which controller or action you're rendering from. If you're rendering a page from `TestController.index`, then both tags find the `/test/index.zul` file for you. This is the same convention used by Grails' views.
+
+  * You can now use the `build` property, a ZkBuilder of the current ZUL page, inside your GrailsComposer to create ZK user-interface.
