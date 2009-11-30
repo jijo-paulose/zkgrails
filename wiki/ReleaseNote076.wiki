@@ -19,6 +19,6 @@
  * This version includes ZK 3.6.3.
  * You can now embed a ZUL page (as fragments) into a GSP using two tags: `<z:head/>` and `<z:body/>`. So you can leverage UrlMapping and also Sitemesh decoration for your ZUL pages. Thanks wehe@gmx.at, for this contribution.
 
-  Both tags accept zul="your zul page" attribute, like: `<z:body zul="/test/index.zul"/>` And by default, it *automatically* detects which controller or action you're rendering from. If you're rendering a page from `TestController.index`, then both tags find the `/test/index.zul` file for you. This is the same convention used by Grails' views.
+  Both tags accept zul="your zul page" attribute, like: `<z:body zul="/test/index.zul"/>`. And by default, these tags *automatically* detect from which controller or action you're rendering. If you're rendering a page from `TestController.index`, then both tags find the `/test/index.zul` file for you. This is the same convention used by Grails' views.
 
   * You can now use the `build` property, a ZkBuilder of the current ZUL page, inside your GrailsComposer to create ZK user-interface.
