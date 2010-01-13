@@ -1,4 +1,4 @@
-= Overview of features provided by zkgrails plugin =
+#summary Overview of features provided by zkgrails plugin
 
 === Simpler way for register events ===
   Provides a more intuitive way to register events to any component with the methods onEventName, addOnEventName and removeOnEventName.
