@@ -1,0 +1,29 @@
+= Overview of features provided by zkgrails plugin =
+
+=== Simpler way for register events ===
+  Provides a more intuitive way to register events to any component with the methods onEventName, addOnEventName and removeOnEventName.
+
+  details here (TBD)
+
+=== Sugar syntax to add components via append method ===
+  TBD
+
+=== Sugar syntax to access zk session variables (as done with grails) (since 0.7.7 - Not yet released) ===
+  You can now access zk session variables in the same way as in grails session, ie, session.variable. It's a short cut to session.getAttribute(name) and session.setAttribute(name, value)
+
+=== Simpler way the create components via ZkBuilder (since 0.7.0) ===
+  TBD
+<wiki:comment>
+just an overview here, it's best to conver builder in depth on it's own wiki
+</wiki:comment>
+
+=== build property available on composer that take advantage of ZkBuilder (since 0.7.6) ===
+  You can now use the `build` property, a ZkBuilder of the current ZUL page, inside your GrailsComposer to create ZK user-interface.
+
+=== Embedding zul pages on grails gsp (since 0.7.6) ===
+  You can now embed a ZUL page (as fragments) into a GSP using two tags: `<z:head/>` and `<z:body/>`. So you can leverage UrlMapping and also Sitemesh decoration for your ZUL pages. Thanks wehe@gmx.at, for this contribution.
+
+  Both tags accept zul="your zul page" attribute, like: `<z:body zul="/test/index.zul"/>`. And by default, these tags *automatically* detect from which controller or action you're rendering. If you're rendering a page from `TestController.index`, then both tags find the `/test/index.zul` file for you. This is the same convention used by Grails' views.
+
+=== Scaffolding support (since 0.8 - not yet released) ===
+  TBD
