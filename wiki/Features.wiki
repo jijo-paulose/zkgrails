@@ -3,7 +3,28 @@
 === Simpler way for register events ===
   Provides a more intuitive way to register events to any component with the methods onEventName, addOnEventName and removeOnEventName.
 
-  details here (TBD)
+This is a sneak peek of what zkgrails does for you, using only java you register an event this way:
+{{{
+ void init(Component comp) {
+     comp.addEventListener("onClick", new MyListener());
+ }
+ class MyListener implements org.zkoss.zk.ui.event.EventListener {
+     public void onEvent(Event event) throws UiException {
+         ...//processing the event
+     }
+ }
+}}}
+
+And with zkgrails your code is simplified to:
+{{{
+ void init(Component comp) {
+     comp.onClick { event ->
+         ...//processing the event
+     }
+ }
+}}}
+
+  more details here to came (TBD)
 
 === Sugar syntax to add components via append method ===
   TBD
