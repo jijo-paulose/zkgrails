@@ -1,4 +1,5 @@
 #summary Release Notes for ZKGrails 1.0-M2
+#labels Featured
 
 = ZKGrails 1.0-M2 Release Notes =
 
@@ -24,17 +25,17 @@
 
   * This is the first version that support ZK 5.
   * Now you can use Grails tag libraries to create custom components.
-  * Note that this version introduces a breaking change on using #{..} instead of ${..} because an ${..} expression is used by the GSP parser.
+  * This version introduces *a breaking change* on using #{..} instead of ${..} because an ${..} expression is used by the GSP parser.
   * If you would like to disable the GSP tag library feature, you can put:
 {{{
 grails.zk.taglib.disabled = true
 }}}
 in `grails-app/conf/Config.groovy`.
-  * The `apply` attribute now looks up Spring Beans automatically without specifying the bean name as an ${..} expression. For example:
+  * The `apply` attribute now looks up Spring Beans automatically without specifying the bean name as an #{..} expression. For example:
 {{{
   <window apply="test.indexComposer">
 }}}
   will be equivalent to 
 {{{
-  <window apply="${test.indexComposer}">
+  <window apply="#{test.indexComposer}">
 }}}
