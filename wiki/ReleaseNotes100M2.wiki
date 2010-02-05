@@ -23,7 +23,7 @@
 
 == Enhancements ==
 
-  * This is the first version that support ZK 5.
+  * This version supports ZK 5 final.
   * Now you can use Grails tag libraries to create custom components.
   * This version introduces *a breaking change* on using `#{..}` instead of `${..}` because `${..}` expressions will be recognised by the GSP tag library parser.
   * If you would like to disable the GSP tag library feature, you can put:
