@@ -1,13 +1,42 @@
 #summary Release Notes for ZKGrails 1.0-M2
 
-= Introduction =
+= ZKGrails 1.0-M2 Release Notes =
 
-Add your content here.
+5 Feb 2010. This version of ZKGrails is a milestone release for the 1.0 series. It supports Grails 1.2 and ZK 5. ZKGrails is now released under LGPL.
+
+== Issues ==
+
+* issue 78 ZulResponse broken with ZK5
+* issue 67 CreateZulWithFacade is still not complete
+* issue 85 Support Grails tag libs in ZUL
+* issue 92 Write a composer resolver
+* issue 64 Cannot create zul for domain class inside package and cannot create-zul-with-facade.
+* issue 74 Make ZK's session in composers behave like http session in grails composer
+* issue 77 tag lib for i3-label resource from gsp
+* issue 82 NPE when adding a event handler with ZkBuilder
+* issue 86 Upgrade to ZK 5.0 final
+* issue 87 Split ZKGrails into 2 versions, CE and EE
+* issue 89 'resource' Taglib in ZUL renders the plugin path, not the app's path.
+* issue 90 <window apply="${myComposer}"> won't work because GSP looks up and return no * results
+* issue 91 Update ZK patches to the zk-delta repository
+* issue 93 Able to turn off tablib support using a configuration
 
 
-= Details =
+== Enhancements ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+* This is the first version that support ZK 5.
+* Now you can use Grails tag libraries to create custom components.
+* Note that this version introduces a breaking change on using #{..} instead of ${..} because an ${..} expression is used by the GSP parser.
+* If you would like to disable the GSP tag library feature, you can put:
+{{{
+grails.zk.taglib.disabled = true
+}}}
+in `grails-app/conf/Config.groovy`.
+* the `apply` attribute now looks up Spring Beans automatically without specifying the bean name as an ${..} expression. For example:
+{{{
+  <window apply="test.indexComposer">
+}}}
+will be equivalent to 
+{{{
+  <window apply="${test.indexComposer}">
+}}}
