@@ -33,8 +33,7 @@ in `grails-app/conf/Config.groovy`.
   * The `apply` attribute now looks up Spring Beans automatically without specifying the bean name as an ${..} expression. For example:
 {{{
   <window apply="test.indexComposer">
-}}}
-will be equivalent to 
+}}} will be equivalent to 
 {{{
   <window apply="${test.indexComposer}">
 }}}
