@@ -16,21 +16,21 @@
   * issue 86 Upgrade to ZK 5.0 final
   * issue 87 Split ZKGrails into 2 versions, CE and EE
   * issue 89 'resource' Taglib in ZUL renders the plugin path, not the app's path.
-  * issue 90 <window apply="${myComposer}"> won't work because GSP looks up and return no results
+  * issue 90 `<window apply="${myComposer}">` won't work because GSP looks up and return no results
   * issue 91 Update ZK patches to the zk-delta repository
   * issue 93 Able to turn off tablib support using a configuration
 
 == Enhancements ==
 
-* This is the first version that support ZK 5.
-* Now you can use Grails tag libraries to create custom components.
-* Note that this version introduces a breaking change on using #{..} instead of ${..} because an ${..} expression is used by the GSP parser.
-* If you would like to disable the GSP tag library feature, you can put:
+  * This is the first version that support ZK 5.
+  * Now you can use Grails tag libraries to create custom components.
+  * Note that this version introduces a breaking change on using #{..} instead of ${..} because an ${..} expression is used by the GSP parser.
+  * If you would like to disable the GSP tag library feature, you can put:
 {{{
 grails.zk.taglib.disabled = true
 }}}
 in `grails-app/conf/Config.groovy`.
-* the `apply` attribute now looks up Spring Beans automatically without specifying the bean name as an ${..} expression. For example:
+  * The `apply` attribute now looks up Spring Beans automatically without specifying the bean name as an ${..} expression. For example:
 {{{
   <window apply="test.indexComposer">
 }}}
