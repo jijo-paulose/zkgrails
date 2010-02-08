@@ -33,7 +33,7 @@
 grails.zk.taglib.disabled = true
 }}}
 in `grails-app/conf/Config.groovy`.
-  * The `apply` attribute now looks up Spring Beans automatically without specifying the bean name as an #{..} expression. For example:
+  * Support beans under package. The `apply` attribute now looks up Spring Beans automatically without specifying the bean name as an #{..} expression. For example:
 {{{
   <window apply="test.indexComposer">
 }}}
