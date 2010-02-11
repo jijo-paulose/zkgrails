@@ -1,6 +1,14 @@
 #summary Development guide line
 
-= Details =
+= Tools =
+
+We use:
+  * GIT
+  * GIT-SVN
+  * Stacked GIT
+for version control.
+
+= Branches =
 
 There are two important branches in the ZKGrails git repository. 
 
