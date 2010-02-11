@@ -2,4 +2,11 @@
 
 = Details =
 
-There are two important branches in the ZKGrails git repository. The first one is `master` which is always kept stable. The second one is `snapshot` which more or less a development branch. You will always be working on the `snapshot` branch for fixing bugs and implementing features. After getting a bug fixed or a feature implemented, please inform the team via the issue tracker. After that, if the issue is verified, its commits will be merged into the `master` branch.
+There are two important branches in the ZKGrails git repository. 
+
+  * The first one is `master` which is always kept stable.
+  * The second one is `snapshot` which more or less the development branch. Code in this branch can be very unstable.
+
+You will always be working on the `snapshot` branch for fixing bugs and implementing features.
+
+After getting a bug fixed or a feature implemented, please inform the team via the issue tracker. After that, if the issue is verified, its commits will be merged into the `master` branch.
