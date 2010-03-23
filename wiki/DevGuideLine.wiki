@@ -1,4 +1,5 @@
 #summary Development guide line
+#labels Featured
 
 = Tools =
 
@@ -7,7 +8,6 @@ We use:
   * GIT-SVN
   * [http://procode.org/stgit/#Download Stacked GIT]. Download the most recent version and read the INSTALL file that cames in the archive.
 for version control.
-
 
 = Branches =
 
