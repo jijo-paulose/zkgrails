@@ -32,8 +32,14 @@ Please use:
   * Google Chrome's comment style
 {{{
 //
-// This is a comment
+// This is a comment.
 //
 this.is = code
+
+//
+// This is a multiple-line
+// comment.
+//
+this.is = "another line of code"
 }}}
   * UTF-8 for source file encoding
