@@ -1,14 +1,6 @@
-#summary Release notes for ZKGrails 0.7.8.
+#summary Release Notes for ZKGrails 0.7.8.
 #labels Featured
 
-= Introduction =
+= ZKGrails 0.7.8 Release Notes =
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+23 Mar 2010. This version of ZKGrails is a maintenance release for the 0.7.x series. It supports Grails 1.1.2+ and ZK 3.6.4. Please note that this version is still released under GPLv2.
