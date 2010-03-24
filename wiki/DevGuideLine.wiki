@@ -26,9 +26,9 @@ We have *master-0.7.x* as a master branch of the series, say *0.7.x*. To fix bug
 = Coding Convention =
 
 Please use:
-  * Unix LF for the end-of-line.
-  * Soft tab, 4 spaces
-  * Google Chrome's comment style
+  * Unix LF for line breaks.
+  * Soft tab, 4 spaces.
+  * Google Chrome's comment style:
 {{{
 //
 // This is a comment.
@@ -41,4 +41,4 @@ this.is = code
 //
 this.is = "another line of code"
 }}}
-  * UTF-8 for source file encoding
+  * UTF-8 for source file encoding.
