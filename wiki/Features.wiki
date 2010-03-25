@@ -27,16 +27,51 @@ And with zkgrails your code is simplified to:
   more details here to came (TBD)
 
 === Sugar syntax to add components via append method ===
-  TBD
+  All zk components receive a dynamic method called "append" with one parameter (a Closure), it will delegated to ZkBuilder to build the components:
+{{{
+  def div = new Div()
+  div.append {
+      label(value: "What is your name?")
+      textbox('txbName')
+  }
+}}}
+  Felipe Cypriano blogged about this feature: [http://felipecypriano.com/blog/2010/03/04/grails-with-zk-how-to-create-components-in-runtime-with-the-builder How to Create Components in Runtime with Builder] 
 
 === Sugar syntax to access zk session variables (as done with grails) (since 0.7.7 - Not yet released) ===
   You can now access zk session variables in the same way as in grails session, ie, session.variable. It's a short cut to session.getAttribute(name) and session.setAttribute(name, value)
 
 === Simpler way the create components via ZkBuilder (since 0.7.0) ===
-  TBD
-<wiki:comment>
-just an overview here, it's best to conver builder in depth on it's own wiki
-</wiki:comment>
+  ZkBuilder provides a nice way to create zk components, following groovy Builder paradigm.
+  
+  More detail on ZkBuilder (TBD)
+
+
+  Enhancements (since 1.0M4)
+  # Supports adding client side events. If the parameter on onEvent it's a String, it assumes that is a client side event, if it's a Closure, then it's a server side event:
+    {{{
+    textbox(onChange: "alert('Say hi from JS');"
+    }}}  
+  # Supports components defined on lang-addon.xml: 
+    Let's say you have a macro component called tbbdelete defined on lang.addon.xml: 
+    {{{
+    <component>
+        <component-name>tbbdelete</component-name>
+        <extends>toolbarbutton</extends>
+        <component-class>package.class</component-class>
+    </component>
+    }}}    
+    You can then use tbbdelete on the builder:
+    {{{
+    div {
+        tbbdelete(label: 'delete user');
+    }
+    }}} 
+    The rule is just to use the same name defined on component-name. Also, if you override a zk component on lang-addon.xml, it will use your versoin.
+  # Supports the forward property (which works just like the one you use on .zul pages):
+    {{{
+    textbox(forward: "onChange=onTextChange,onChange=onAnotherMethod,onChanging=onChanging")
+    }}}
+    Use the same spec from [http://www.zkoss.org/javadoc/5.0/zk/org/zkoss/zk/ui/metainfo/ComponentInfo.html#setForward(java.lang.String) ZK docs]
 
 === build property available on composer that take advantage of ZkBuilder (since 0.7.6) ===
   You can now use the `build` property, a ZkBuilder of the current ZUL page, inside your GrailsComposer to create ZK user-interface.
