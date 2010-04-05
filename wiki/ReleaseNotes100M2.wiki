@@ -36,7 +36,7 @@ in `grails-app/conf/Config.groovy`.
 {{{
   <window apply="test.indexComposer">
 }}}
-  will be equivalent to 
+  The only exception is that if the composer is in the default package (bad practice). Then you have to enclose with #{}. Like:
 {{{
-  <window apply="#{test.indexComposer}">
+  <window apply="#{indexComposer}">
 }}}
