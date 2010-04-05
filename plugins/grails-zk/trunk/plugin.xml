@@ -1,4 +1,4 @@
-<plugin name='zk' version='0.7.8' grailsVersion='1.1 &gt; *'>
+<plugin name='zk' version='1.0-M3' grailsVersion='1.1 &gt; *'>
   <author>chanwit</author>
   <authorEmail>chanwit@gmail.com</authorEmail>
   <title>ZKGrails: ZK plugin for Grails</title>
@@ -55,14 +55,18 @@ this plugin adds ZK Ajax framework (www.zkoss.org) support to Grails application
       <argument type='java.lang.String' />
       <argument type='java.lang.Object' />
     </method>
-    <method name='propertyMissing' artefact='Domain' type='org.zkoss.zk.ui.http.SimpleSession'>
+    <method name='getAt' artefact='Domain' type='org.zkoss.zk.ui.http.SimpleSession'>
       <description />
       <argument type='java.lang.String' />
     </method>
-    <method name='propertyMissing' artefact='Domain' type='org.zkoss.zk.ui.http.SimpleSession'>
+    <method name='putAt' artefact='Domain' type='org.zkoss.zk.ui.http.SimpleSession'>
       <description />
       <argument type='java.lang.String' />
       <argument type='java.lang.Object' />
+    </method>
+    <method name='loadComponents' artefact='Domain' type='org.zkoss.zkplus.databind.DataBinder'>
+      <description />
+      <argument type='java.util.List' />
     </method>
     <property name='model' type='org.zkoss.zul.Listbox' artefact='Domain'>
       <description />
