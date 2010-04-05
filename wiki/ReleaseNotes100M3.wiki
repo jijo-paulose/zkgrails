@@ -7,14 +7,14 @@
 *Note that* as it is still a milestone release, users are expected to encounter existing bugs. Please help us make the better plugin by reporting them to the issue tracker.
 
 == Issues ==
-  * issue 95    chanwit     There is a potential bug at "@{..}" and "a$b.c" when enabled GSP taglib
-  * issue 96    omadruga    IE and Opera won't work with heigth="100%" with <z:head>...
-  * issue 36    chanwit     Make facade's scope configurable
+  * issue 95    (chanwit)     There is a potential bug at "@{..}" and "a$b.c" when enabled GSP taglib
+  * issue 96    (omadruga)    IE and Opera won't work with heigth="100%" with <z:head>...
+  * issue 36    (chanwit)     Make facade's scope configurable
   * issue 59    -           Recognize grails taglibs (and other implicit variables) in composers
-  * issue 99    chanwit     Upgrade to ZK 5.0.1
-  * issue 100   omadruga    Enhancements to ZkBuilder
-  * issue 102   chanwit     Use Map as a forward value (forward:[onClick:"onA,onB"])
-  * issue 104   fmcypriano  Porting issue 103 to ZKGrails 1.0 series
-  * issue 105   chanwit     No Hibernate Session bound to thread, when playing with the ToDo demo
+  * issue 99    (chanwit)     Upgrade to ZK 5.0.1
+  * issue 100   (omadruga)    Enhancements to ZkBuilder
+  * issue 102   (chanwit)     Use Map as a forward value (forward:[onClick:"onA,onB"])
+  * issue 104   (fmcypriano)  Porting issue 103 to ZKGrails 1.0 series
+  * issue 105   (chanwit)     No Hibernate Session bound to thread, when playing with the ToDo demo
 
 == Enhancements ==
