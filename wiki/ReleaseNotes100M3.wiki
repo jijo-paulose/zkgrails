@@ -1,4 +1,5 @@
 #summary Release Notes for ZKGrails 1.0-M3
+#labels Featured
 
 = ZKGrails 1.0-M3 Release Notes =
 
@@ -18,3 +19,8 @@
   * issue 105   (chanwit)     No Hibernate Session bound to thread, when playing with the ToDo demo
 
 == Enhancements ==
+  * This version contains ZK 5.0.1.
+  * ZkBuilder now supports client-side event handlers, if a code assigned to a handler is String.
+  * ZkBuilder also supports the `forward` attribute.
+  * In GrailsComposer, every event handle is now automatically fired under a Spring transaction.
+  * Binder supports a new method to load a list of components.
