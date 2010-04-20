@@ -29,7 +29,7 @@ We have *master-0.7.x* as a master branch of the series, say *0.7.x*. To fix bug
 
 Feature branches may be created when collaboration is required to implement features. For example, if two committers decide to implement a new feature tracked by issue 100, then a committer may create a new branch, *feat-100*, for it and push this new branch to the repository.
 
-Finally, this feature branch can be deleted from the repository, after committers agree that the implementation for this feature is completed.
+Finally, this feature branch can be deleted from the repository, after committers agree that the implementation for this feature is completed and after merge the changes into the current development branch, the _snapshot-series_.
 
 Naming convention for this kind branch is *feat-<issue number>*, i.e., *feat-100* is a feature tracked by the issue #100.
 
