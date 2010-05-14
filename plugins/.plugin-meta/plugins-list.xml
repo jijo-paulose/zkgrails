@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugins revision="142">
+<plugins revision="147">
     <plugin name="zk" latest-release="1.0-M4">
         <release tag="RELEASE_0_7_5" type="svn" version="0.7.5">
             <title>ZK for Grails</title>
@@ -69,6 +69,18 @@ this plugin adds ZK Ajax framework (www.zkoss.org) support to Grails application
 </description>
             <documentation>http://grails.org/plugin/zk</documentation>
             <file>https://zkgrails.googlecode.com/svn/plugins/grails-zk/tags/RELEASE_1_0-M4/grails-zk-1.0-M4.zip</file>
+        </release>
+    </plugin>
+    <plugin name="zk-ee" latest-release="1.0-M4">
+        <release tag="RELEASE_1_0-M4" version="1.0-M4" type="svn">
+            <title>Enterprise Addons for ZK plugin for Grails</title>
+            <author>Chanwit Kaewkasi</author>
+            <authorEmail/>
+            <description>\
+This plugin contains addition jars required for enabling ZK Enterprise features.
+</description>
+            <documentation>http://grails.org/plugin/zk-ee</documentation>
+            <file>https://zkgrails.googlecode.com/svn/plugins/grails-zk-ee/tags/RELEASE_1_0-M4/grails-zk-ee-1.0-M4.zip</file>
         </release>
     </plugin>
 </plugins>
