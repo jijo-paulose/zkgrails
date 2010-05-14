@@ -39,4 +39,7 @@ demo
 
 == Enhancements ==
   * This version ships with ZK 5.0.2.
-  * New `Comet` artefact to support real-time updates via server pulling / push.
+  * New `Comet` artefacts to support real-time updates via server pulling / push.
+  * Support custom extensions. You can now have your own file extension rather than .zul.
+  * ZKGrails is also now available as two versions, CE and EE. 
+  * This version supports functional testing via grails-selenium-rc plugin. You can use `TestIdGenerator` to make your ZUL pages testable.
