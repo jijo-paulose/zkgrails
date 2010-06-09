@@ -8,6 +8,19 @@ We use the follow version control software:
   * GIT-SVN
   * [http://procode.org/stgit/#Download Stacked GIT]. Download the most recent version and read the INSTALL file that cames in the archive.
 
+= Submit patches =
+
+If you are not a comitter, but willing to help us improve ZKGrails by submitting a patch. You can follow step below to do so.
+
+$ `git clone git://github.com/zkgrails/zkgrails.git`
+
+$ `git checkout -b snapshot origin/snapshot`
+
+Hack it. After you think your code's working and looks fine, then use the following command:
+
+$ `git diff > issue_no.patch`
+
+to get a patch file and submit it to the related issue in the tracker.
 
 = Branching =
 
