@@ -5,5 +5,5 @@
 ==Vmak Inventory==
 
  * Purchase sales inventory based on barcode/serial number.
- * URL: *www.vmaksolutions.com*
+ * URL: [http://www.vmaksolutions.com www.vmaksolutions.com]
  * Contact: info@vmaksolutions.com
