@@ -1,0 +1,9 @@
+#summary Build instructions.
+
+= Build from source =
+
+There are two steps to build ZKGrails from source.
+
+== Patch zk.jar using AspectJ ==
+
+== Package plugin ==
