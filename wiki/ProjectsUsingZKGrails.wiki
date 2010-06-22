@@ -1,10 +1,9 @@
 #summary This page list projects that use ZKGrails in both development and production.
 
-= ZKGrails Project Listing =
+= Listing of Projects built using ZKGrails =
 
-= Your project =
+==Vmak Inventory==
 
-Add description here.
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+ * Purchase sales inventory based on barcode/serial number.
+ * URL: *www.vmaksolutions.com*
+ * Contact: info@vmaksolutions.com
