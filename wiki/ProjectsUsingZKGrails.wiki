@@ -8,3 +8,5 @@
  * Purchase sales inventory based on barcode/serial number.
  * URL: [http://www.vmaksolutions.com www.vmaksolutions.com]
  * Contact: info@vmaksolutions.com
+
+http://img822.imageshack.us/img822/6398/83459436.png
