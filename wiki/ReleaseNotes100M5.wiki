@@ -34,7 +34,7 @@
 
 == Enhancements ==
   * This version ships with ZK 5.0.4.
-  * Better handling 1-1 and 1-M relationships in dynamic scaffolding
-  * Sub-plugin architecture
-  * Comet enhancement
-  * Ship jQuery4j
+  * Better handling 1-1 and 1-M relationships in dynamic scaffolding.
+  * Sub-plugin architecture.
+  * Comet enhancement.
+  * Ship jQuery4j.
