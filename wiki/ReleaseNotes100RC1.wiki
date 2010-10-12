@@ -7,7 +7,7 @@
 *Note that* as it is still a release candidate, users are still expected to encounter some remaining bugs. Please help us make the better plugin by reporting bugs to the issue tracker.
 
 == Issues ==  
-  * issue 80  (chanwit)  <z:body/> will no display properly <listhead sizable="true"> with IE7
+  * issue 80  (chanwit)  `<z:body/>` will no display properly `<listhead sizable="true">` with IE7
   * issue 101 (chanwit)  Fileupload + zkgrails, not working 100% together
   * issue 136 (chanwit)  ZulResponse body/head matching problem when using native html
   * issue 147 (chanwit)  Regression failed on Grails 1.2.3, 1.3.2 with ZK 5.0.3-FL
