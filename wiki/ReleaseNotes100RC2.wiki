@@ -8,11 +8,11 @@
 *Note that* as it is still a release candidate, users are still expected to encounter some remaining bugs. Please help us make the better plugin by reporting bugs to the issue tracker.
 
 == Issues ==
-  * 139 (omadruga)	Comet don't support more than one comet for the same composer
-  * 159 (chanwit)	Grails 1.3.5 issue when openning multiple zul pages
-  * 160 (chanwit)	Upgrading ZKGrails to use Grails 1.3.5 breaks 'grails war' because selenium-rc dependency
-  * 161 (chanwit)	ZKGrails is not compilable using Grails 1.2.x after fixing issue #159			
-  * 163 (chanwit)	Improve and support page filter to both Grails 1.2.x and 1.3.x
+  * issue 139 (omadruga)	Comet don't support more than one comet for the same composer
+  * issue 159 (chanwit)	Grails 1.3.5 issue when openning multiple zul pages
+  * issue 160 (chanwit)	Upgrading ZKGrails to use Grails 1.3.5 breaks 'grails war' because selenium-rc dependency
+  * issue 161 (chanwit)	ZKGrails is not compilable using Grails 1.2.x after fixing issue #159			
+  * issue 163 (chanwit)	Improve and support page filter to both Grails 1.2.x and 1.3.x
 
 == Enhancements ==
   * None.
