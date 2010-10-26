@@ -15,18 +15,24 @@ class ActivityMapper {
 // which is a part of view(V) in MVP.
 class HelloComposer {
 
-  // injected
-  def helloActivity
-  def goodByeActivity
+  //
+  // injection of activities seems to not be necessary
+  //
+  // def helloActivity
+  // def goodByeActivity
 
   def txtName
 
   def onClick_btnHello() {
     goto(place:"hello", params:[name: txtName.value])
+    // like render,
+    // resolve "hello" to helloActivity
+    // then pass params to it
   }
 
   def onClick_btnGoodbye() {
     goto(place:"goodbye")
+    // same as above
   }
 }
 
