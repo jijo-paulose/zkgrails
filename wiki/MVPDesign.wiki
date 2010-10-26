@@ -8,8 +8,8 @@ class ActivityMapper {
    }
 }
 
-some time we use:
-#!/hello/chanwit -> tokenized by /:activity/:name, so params.name = "chanwit"
+// some time we may have:
+// "#!/hello/chanwit" -> tokenized by /:activity/:name, so params.name = "chanwit"
 
 // Composer in ZK means a view composer
 // which is a part of view(V) in MVP.
@@ -22,11 +22,11 @@ class HelloComposer {
   def txtName
 
   def onClick_btnHello() {
-    helloActivity.goto(place:"hello", params:[name: txtName.value])
+    goto(place:"hello", params:[name: txtName.value])
   }
 
   def onClick_btnGoodbye() {
-    goodByeActivity.goto(place:"hello")
+    goto(place:"goodbye")
   }
 }
 
