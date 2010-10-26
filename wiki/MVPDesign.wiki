@@ -1,0 +1,58 @@
+#summary MVP Support for ZKGrails
+
+= Design of Model-View-Presentation =
+
+{{{
+class ActivityMapper {
+  "#!/:activity" {
+   }
+}
+
+some time we use:
+#!/hello/chanwit -> tokenized by /:activity/:name, so params.name = "chanwit"
+
+// Composer in ZK means a view composer
+// which is a part of view(V) in MVP.
+class HelloComposer {
+
+  // injected
+  def helloActivity
+  def goodByeActivity
+
+  def txtName
+
+  def onClick_btnHello() {
+    helloActivity.goto(place:"hello", params:[name: txtName.value])
+  }
+
+  def onClick_btnGoodbye() {
+    goodByeActivity.goto(place:"hello")
+  }
+}
+
+class HelloActivity extends GrailsPresenter {
+
+    // injected
+    def clientFactory
+    def helloPlace
+    def eventBus
+    def placeController
+
+    // this should be the default behaviour in GrailsPresenter?
+    def goto(place) {
+       placeController.goto(place)
+    }
+
+
+    def start = { container ->
+        def c = cf.composer // view composer, should be injected ?
+        def c.name = name
+        def c.presenter = this // injected, not required?
+        // probably the main logic is here
+        container.src = composer.viewURL
+    }
+
+    def stop = {
+    }  
+}
+}}}
