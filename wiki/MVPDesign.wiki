@@ -53,6 +53,7 @@ class HelloActivity extends GrailsPresenter {
     def start = { container ->
         def c = cf.composer // view composer, should be injected ?
         def c.name = name
+        // view (composer) and presenter are bi-directional
         def c.presenter = this // injected, not required?
         // probably the main logic is here
         container.src = composer.viewURL
