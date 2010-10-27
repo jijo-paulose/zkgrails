@@ -49,15 +49,16 @@ class HelloActivity extends GrailsPresenter {
        placeController.goto(place)
     }
 
-
+    // fire PlaceChange
     def start = { container ->
         def c = cf.composer // view composer, should be injected ?
         def c.name = name
         def c.presenter = this // injected, not required?
         // probably the main logic is here
         container.src = composer.viewURL
+        fireEvent(...)
     }
-
+    // fire PlaceChangeRequest
     def stop = {
     }  
 }
