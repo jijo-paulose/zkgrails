@@ -1,0 +1,14 @@
+#summary ZKGrails' Roadmap
+#labels Featured
+
+= ZKGrails 1.1 =
+
+  * Static Scaffolding Implementation
+  * Model-View-Presentation Framework
+  * CDI-like Event Handling
+
+Target Date - 2011 Q1
+
+= ZKGrails 2.0 =
+
+  * TBD
