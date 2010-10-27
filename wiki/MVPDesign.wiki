@@ -63,4 +63,7 @@ class HelloActivity extends GrailsPresenter {
     def stop = {
     }  
 }
+
+// PlaceHistoryMapper maps a history token to a Place
+
 }}}
