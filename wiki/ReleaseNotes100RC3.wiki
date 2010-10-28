@@ -11,4 +11,4 @@
   * None.
 
 == Enhancements ==
-  * Upgraded ZK to 5.0.5-FL-2010-10-20).
+  * Upgraded ZK to 5.0.5-FL-2010-10-20.
