@@ -12,5 +12,8 @@ Target Date - 2011 Q1
 
 == ZKGrails 2.0 ==
 
+  * Cloud Portable
   * Update to Grails 2.0
   * TBD
+
+Target Date - 2011 Q4
