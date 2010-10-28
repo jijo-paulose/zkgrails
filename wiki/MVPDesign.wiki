@@ -66,4 +66,6 @@ class HelloActivity extends GrailsPresenter {
 
 // PlaceHistoryMapper maps a history token to a Place
 
+// Multiple Views -> use Grails Controller to select ZUL View by detecting UA
+
 }}}
