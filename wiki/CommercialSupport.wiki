@@ -2,8 +2,10 @@
 
 = Commercial Support =
 
-We provide commercial support at 35 USD per hour for:
-  * Development or Prototyping ZKGrails applications
+We provide commercial support at 40 USD per hour for:
+  * Development or prototyping ZKGrails applications
+  * ZKGrails feature implementation
+  * Critical bug fixing
   * Create a custom build for ZKGrails
 
 Response time is no more than 1 business day. Contact: zkgrails at gmail dot com.
