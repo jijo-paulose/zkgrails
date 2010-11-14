@@ -2,7 +2,9 @@
 
 = Commercial Support =
 
-We provide commercial support at 40 USD per hour for:
+Paid technical support via email is available at 
+
+We provide commercial support at 45 USD per hour for:
   * Development or prototyping ZKGrails applications
   * ZKGrails feature implementation
   * Critical bug fixing
