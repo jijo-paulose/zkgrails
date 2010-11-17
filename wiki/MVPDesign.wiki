@@ -1,6 +1,6 @@
 #summary MVP Support for ZKGrails
 
-= Design of Model-View-Presentation =
+= Design of ZKGrails' Model-View-Presenter =
 
 {{{
 class ActivityMapper {
