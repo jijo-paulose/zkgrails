@@ -10,4 +10,4 @@ We provide commercial support at 45 USD per hour for:
   * Critical bug fixing
   * Create a custom build for ZKGrails
 
-Response time is no more than 2 business days. Contact: _zkgrails at gmail dot com_ for allocating time slots.
+Response time is no later than 2 business days. Contact: _zkgrails at gmail dot com_ for allocating time slots.
