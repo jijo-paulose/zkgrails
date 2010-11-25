@@ -1,7 +1,7 @@
 #summary A tutorial to load data on-demand.
 #labels Featured
 
-This is a ZKGrails port of the program written in http://docs.zkoss.org/wiki/Use_Load-On-Demand_to_Handle_Huge_Data. This tutorial is working for ZKGrails 0.7.1 and later.
+This is a ZKGrails port of the program written in http://docs.zkoss.org/wiki/Use_Load-On-Demand_to_Handle_Huge_Data. This tutorial is working for ZKGrails ~~0.7.1~~ 1.0 and later.
 
 == Create a Grails project ==
 
@@ -26,6 +26,8 @@ $ `grails create-domain-class employee`
 We then add two properties into domain class Employee, namely fullname and username. Both are string.
 
 {{{
+package ondemand
+
 class Employee {
 
     String fullname
@@ -41,12 +43,12 @@ class Employee {
 
 $ `grails create-zul employee`
 
-This will also create `grails-apps/composers/EmployeeComposer.groovy` for you.
+This will also create `grails-apps/composers/ondemand/EmployeeComposer.groovy` for you.
 
 == Edit employee.zul ==
 
 {{{
-<window apply="${employeeComposer}">
+<window apply="ondemand.employeeComposer">
 
     <vbox>
         <image src="images/grails_logo.jpg"/>
@@ -77,6 +79,8 @@ I also show you the use of Groovy's default argument value declared at `redraw` 
 Also in `redraw` method, there are two places to use dynamic methods added by ZKGrails. The first one is listbox#clear, of which removes all listitem. The second one is append, which accepts component construction via ZK Builder.
 
 {{{
+package ondemand
+
 import org.zkoss.zkgrails.*
 import org.zkoss.zk.ui.event.*
 
