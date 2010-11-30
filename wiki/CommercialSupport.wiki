@@ -3,9 +3,9 @@
 
 = Commercial Support =
 
-Paid technical support via email is available at 250 USD per incident. 
+Premium technical support via email is available at $250/incident.
 
-We provide commercial support at 45 USD per hour for:
+We provide commercial support at $45/hour for:
   * Developing or prototyping ZKGrails applications.
   * Implementing special features.
   * Creating custom builds.
