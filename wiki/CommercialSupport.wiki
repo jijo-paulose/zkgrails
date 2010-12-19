@@ -5,7 +5,7 @@
 
 Premium technical support via email is available at $250/incident.
 
-We provide commercial support at $45/hour for:
+We provide support at $45/hour for:
   * Developing or prototyping ZKGrails applications.
   * Implementing special features.
   * Creating custom builds.
