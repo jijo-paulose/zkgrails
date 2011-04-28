@@ -27,4 +27,4 @@ $ repo sync
 $ build.sh 5.0.6 1.1-M1
 }}}
 
-Will fetch ZK 5.0.6, and use it to build ZKGrails 1.1-M1.
+will fetch ZK 5.0.6, and use it to build ZKGrails 1.1-M1.
