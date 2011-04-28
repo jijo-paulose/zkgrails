@@ -4,8 +4,10 @@
 
 1. You need the `repo` script used by Google's Android. Then create a directory for example `zkgrails`.
 
-`$ mkdir zkgrails`
-`$ cd zkgrails`
+{{{
+$ mkdir zkgrails
+$ cd zkgrails
+}}}
 
 2. You then can init the ZKGrails repository locally into your machine using the following command.
 
