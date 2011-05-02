@@ -7,84 +7,84 @@ The next instruction is intended to show a basic example of using ZEST with a zk
 
 = Details =
 
-1 - create a grais project: grails create-app myapp
+*1 -* create a grais project: _grails create-app myapp_
 
-2 - install zkgrails plugin: grails install-plugin zk-ee (perhaps only zk would be enough, but haven't test it yet)
+*2 -* install zkgrails plugin: _grails install-plugin zk-ee_ (perhaps only zk would be enough, but haven't test it yet)
 
-3 - download ZEST binary from http://code.google.com/p/zest/downloads/list
+*3 -* download ZEST binary from http://code.google.com/p/zest/downloads/list
 
-4 - copy zest.jar from de zip file downloaded to myapp/lib
+*4 -* copy zest.jar from de zip file downloaded to myapp/lib
 
-5 - create a groovy class, Foo for example like this:
+*5 -* create a groovy class, Foo for example like this:
 
-package my
+_package my_
 
-class Foo {
+_class Foo {_
 	
-    public String execute() {
-        return "success";
-    }
+    _public String execute() {_
+        _return "success";_
+    _}_
     
-}
+_}_
 
-6 – create zul file with composer: grails create-zul test
+*6 –* create zul file with composer: _grails create-zul test_
 
-7- TestComposer.groovy and test.zul shoud be something like this:
+*7 -* TestComposer.groovy and test.zul shoud be something like this:
 
-test.zul
+*_test.zul_*
 
-    <window apply="myapp.testComposer">
+    _<window apply="myapp.testComposer">_
 
-        <hbox>
-            <image src="${z.resource(dir:'images', file:'grails_logo.png')}"/>
-        </hbox>
+        _<hbox>_
+            _<image src="${z.resource(dir:'images', file:'grails_logo.png')}"/>_
+        _</hbox>_
         
-        <label id="lbl"/>
+        _<label id="lbl"/>_
 
-    </window>
+    _</window>_
 
-TestComposer
+*_TestComposer_*
 
-import org.zkoss.zkgrails.*
+_import org.zkoss.zkgrails.*_
 
-class TestComposer extends GrailsComposer {
+_class TestComposer extends GrailsComposer {_
 
-    def lbl
+    _def lbl_
     
-    def afterCompose = { window ->
-        // initialize components here
-        lbl.value="loaded!"
-    }
-}
+    _def afterCompose = { window ->_
+        _// initialize components here_
+        _lbl.value="loaded!"_
+    _}_
+_}_
 
-8 - install templates will enable us to modify web.xml: grails install-templates
+*8 -* install templates will enable us to modify web.xml: _grails install-templates_
 
-9 – open myapp/src/templates/war/web.xml and add these lines befor the </ web-app> :
+*9 –* open myapp/src/templates/war/web.xml and add these lines befor the </ web-app> :
 
-<filter>
-        <filter-name>zest</filter-name>
-        <filter-class>org.zkoss.zest.sys.ZestFilter</filter-class>
-</filter>
+_<filter>_
+        _<filter-name>zest</filter-name>_
+        _<filter-class>org.zkoss.zest.sys.ZestFilter</filter-class>_
+_</filter>_
     
-<filter-mapping>
-        <filter-name>zest</filter-name>
-        <url-pattern>/*</url-pattern>
-</filter-mapping>
+_<filter-mapping>_
+        _<filter-name>zest</filter-name>_
+        _<url-pattern>/*</url-pattern>_
+_</filter-mapping>_
 
-10 – create a zest.xml under myapp/web-app/WEB-INF/ with the following content:
+*10 –* create a zest.xml under myapp/web-app/WEB-INF/ with the following content:
 
-<?xml version="1.0" encoding="UTF-8"?>
+_<?xml version="1.0" encoding="UTF-8"?>_
 
-<zest>    
-    <action path="/foo" class="my.Foo">
-        <result name="success">/test.zul</result>        
-    </action>
-</zest>
+_<zest>_ 
+    _<action path="/foo" class="my.Foo">_
+        _<result name="success">/test.zul</result>_        
+    _</action>_
+_</zest>_
 
-11 – run project: grails run-app
+*11 –* run project: _grails run-app_
 
-12 – call http://localhost:8080/myapp/foo and will be the same as if you call  http://localhost:8080/myapp/test.zul 
+*12 –* call _http://localhost:8080/myapp/foo_ and will be the same as if you call  _http://localhost:8080/myapp/test.zul_ 
 
-13 – more features about ZEST please visit http://books.zkoss.org/wiki/ZEST_Essentials
+*13 –* more features about ZEST please visit http://books.zkoss.org/wiki/ZEST_Essentials
 
-14 – Enjoy!
+*14 –* Enjoy!
