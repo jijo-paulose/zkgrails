@@ -1,0 +1,90 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+The next instruction is intended to show a basic example of using ZEST with a zkgrails project, so we can call our .zul files like this http://localhost:8080/myapp/list instead of http://localhost:8080/myapp/list.zul
+
+
+= Details =
+
+1 - create a grais project: grails create-app myapp
+
+2 - install zkgrails plugin: grails install-plugin zk-ee (perhaps only zk would be enough, but haven't test it yet)
+
+3 - download ZEST binary from http://code.google.com/p/zest/downloads/list
+
+4 - copy zest.jar from de zip file downloaded to myapp/lib
+
+5 - create a groovy class, Foo for example like this:
+
+package my
+
+class Foo {
+	
+    public String execute() {
+        return "success";
+    }
+    
+}
+
+6 – create zul file with composer: grails create-zul test
+
+7- TestComposer.groovy and test.zul shoud be something like this:
+
+test.zul
+
+    <window apply="myapp.testComposer">
+
+        <hbox>
+            <image src="${z.resource(dir:'images', file:'grails_logo.png')}"/>
+        </hbox>
+        
+        <label id="lbl"/>
+
+    </window>
+
+TestComposer
+
+import org.zkoss.zkgrails.*
+
+class TestComposer extends GrailsComposer {
+
+    def lbl
+    
+    def afterCompose = { window ->
+        // initialize components here
+        lbl.value="loaded!"
+    }
+}
+
+8 - install templates will enable us to modify web.xml: grails install-templates
+
+9 – open myapp/src/templates/war/web.xml and add these lines befor the </ web-app> :
+
+<filter>
+        <filter-name>zest</filter-name>
+        <filter-class>org.zkoss.zest.sys.ZestFilter</filter-class>
+</filter>
+    
+<filter-mapping>
+        <filter-name>zest</filter-name>
+        <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+10 – create a zest.xml under myapp/web-app/WEB-INF/ with the following content:
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zest>    
+    <action path="/foo" class="my.Foo">
+        <result name="success">/test.zul</result>        
+    </action>
+</zest>
+
+11 – run project: grails run-app
+
+12 – call http://localhost:8080/myapp/foo and will be the same as if you call  http://localhost:8080/myapp/test.zul 
+
+13 – more features about ZEST please visit http://books.zkoss.org/wiki/ZEST_Essentials
+
+14 – Enjoy!
