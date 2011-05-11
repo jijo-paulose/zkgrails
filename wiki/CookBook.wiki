@@ -3,11 +3,13 @@
 === A FAQ of conventions used in ZKGrails ===
 
 *1 How to refer to a composer from the zul page   *
-  {{{
+{{{
 <window apply="com.nthdimenzion.composer.bookListComposer"
 }}}
-  here I have a BookListComposer.groovy under the com.nthdimenzion.composer.
-  here zkgrails automatically creates abean of BookListComposer and   assigns      it the id 
+
+here I have a `BookListComposer.groovy` under package com.nthdimenzion.composer.
+
+  here zkgrails automatically creates abean of BookListComposer and   assigns     it the id 
 
 {{{
 com.nthdimenzion.composer.bookListComposer
@@ -67,4 +69,3 @@ isAdmin = SpringSecurityUtils.ifAllGranted("ADMIN_ROLE");
 Note how no type name is used
 
 Note function here implies closure and there is no “def” keyword
-
