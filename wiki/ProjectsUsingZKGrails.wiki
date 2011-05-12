@@ -1,5 +1,4 @@
 #summary This page lists projects that use ZKGrails in both development and production.
-#labels Featured
 
 = Listing of Projects built using ZKGrails =
 
