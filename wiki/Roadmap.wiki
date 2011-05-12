@@ -5,7 +5,7 @@
 
   * Cloud Portable (~~Partially for Cloud Foundry~~)
 
-Target Date - 2011 Q1
+~~Target Date - 2011 Q1~~
 
   * Static Scaffolding Implementation
   * Model-View-Presentation Framework
