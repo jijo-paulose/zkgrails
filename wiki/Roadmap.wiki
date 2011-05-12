@@ -4,12 +4,15 @@
 == ZKGrails 1.1 ==
 
   * Cloud Portable (~~Partially for Cloud Foundry~~)
+
+Target Date - 2011 Q1
+
   * Static Scaffolding Implementation
   * Model-View-Presentation Framework
   * CDI-like Event Handling
   * Update to Grails 1.4
 
-Target Date - 2011 Q1
+Target Date - 2011 Q2
 
 == ZKGrails 2.0 ==
 
