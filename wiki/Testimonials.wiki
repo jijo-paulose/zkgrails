@@ -4,7 +4,7 @@
 I've done two so far with great success & joy - both closed source and in active use.
 IMHO ZKGrails definitely *is* ready for production.
 
-== Werner Hennrich ==
+=== Werner Hennrich ===
 
 
 Developing our comercial app with zk-grails since 2009.
@@ -12,5 +12,4 @@ Developing our comercial app with zk-grails since 2009.
 Simplicity of zkgrails on front-end, and grails nicities (GORM, spring, all the ready-to-use plugins, etc)
 make our dev cycle much shorter, been able to provide value to our customers at a fast rate!
 
-== Gustavo Madruga ==
-
+=== Gustavo Madruga ===
