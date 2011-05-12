@@ -3,6 +3,7 @@
 
 == ZKGrails 1.1 ==
 
+  * Cloud Portable (~~Partially for Cloud Foundry~~)
   * Static Scaffolding Implementation
   * Model-View-Presentation Framework
   * CDI-like Event Handling
