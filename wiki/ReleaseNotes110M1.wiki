@@ -9,9 +9,9 @@ This version of ZKGrails focuses on supporting cloud portability. It is able to 
 
 == Issues ==
 
-* issue 94	Task	chanwit	Create a one-stop build script
-* issue 155	Enhancement	chanwit	Abstract Hibernate dependencies out of the code base
-* issue 181	Enhancement	chanwit	Support cloud with Redis backend
-* issue 182	Enhancement	chanwit	Support cloud with MongoDB backend
-* issue 183	Enhancement	chanwit	Implement LiveModel artefact
-* issue 187	Enhancement	chanwit	Update to ZK 5.0.7 for ZKGrails 1.1
+ * issue 94	Task	chanwit	Create a one-stop build script
+ * issue 155	Enhancement	chanwit	Abstract Hibernate dependencies out of the code base
+ * issue 181	Enhancement	chanwit	Support cloud with Redis backend
+ * issue 182	Enhancement	chanwit	Support cloud with MongoDB backend
+ * issue 183	Enhancement	chanwit	Implement LiveModel artefact
+ * issue 187	Enhancement	chanwit	Update to ZK 5.0.7 for ZKGrails 1.1
