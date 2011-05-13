@@ -9,7 +9,7 @@ Premium technical support via email is available at $250/incident.
 == Quarter Subscription == 
 If you prefer unlimited email support, we offer a subscription plan at $1,899 per 3-month. (Which is cheaper than 8-incident premium supports.)
 
-== Development ==
+== Custom Development ==
 We provide support at $45/hour for:
   * Developing or prototyping ZKGrails applications.
   * Implementing special features.
