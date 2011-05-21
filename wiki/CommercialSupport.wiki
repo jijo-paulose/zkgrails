@@ -4,10 +4,10 @@
 = Commercial Support =
 
 == Technical Support ==
-Premium technical support via email is available at $250/incident.
+Premium technical support via email is available at $120/incident.
 
 == Quarter Subscription == 
-If you prefer unlimited email support, we offer a subscription plan at $1,899 per 3-month. (Which is cheaper than 8-incident premium supports.)
+If you prefer unlimited email support, we offer a subscription plan at $1,899 per 3-month.
 
 == Custom Development ==
 We provide support at $45/hour for:
