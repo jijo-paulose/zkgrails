@@ -59,7 +59,7 @@ _`}`_
 
 *8 -* install templates will enable us to modify web.xml: _grails install-templates_
 
-*9 –* open myapp/src/templates/war/web.xml and add these lines befor the </ web-app> :
+*9 –* open myapp/src/templates/war/web.xml and add these lines before charEncodingFilter :
 
 _`<filter>`_
         _`<filter-name>zest</filter-name>`_
