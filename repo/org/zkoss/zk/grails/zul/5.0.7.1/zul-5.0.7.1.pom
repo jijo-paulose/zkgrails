@@ -7,21 +7,21 @@
   <version>5.0.7.1</version>
   <dependencies>
     <dependency>
+      <groupId>org.aspectj</groupId>
+      <artifactId>aspectjrt</artifactId>
+      <version>1.6.10</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-all</artifactId>
-      <version>1.7.8</version>
+      <version>1.8.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.zkoss.zk.grails</groupId>
       <artifactId>zk</artifactId>
       <version>5.0.7.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.aspectj</groupId>
-      <artifactId>aspectjrt</artifactId>
-      <version>1.6.8</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
