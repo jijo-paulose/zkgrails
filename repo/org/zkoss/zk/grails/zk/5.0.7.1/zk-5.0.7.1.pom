@@ -12,11 +12,5 @@
       <version>1.6.10</version>
       <scope>compile</scope>
     </dependency>
-    <dependency>
-      <groupId>org.aspectj</groupId>
-      <artifactId>aspectjrt</artifactId>
-      <version>1.6.8</version>
-      <scope>runtime</scope>
-    </dependency>
   </dependencies>
 </project>
