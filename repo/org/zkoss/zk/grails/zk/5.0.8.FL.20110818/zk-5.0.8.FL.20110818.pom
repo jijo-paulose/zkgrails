@@ -12,5 +12,11 @@
       <version>1.6.10</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>org.zkoss.common</groupId>
+      <artifactId>zweb</artifactId>
+      <version>5.0.8.FL.20110818</version>
+      <scope>runtime</scope>
+    </dependency>
   </dependencies>
 </project>
