@@ -4,7 +4,7 @@
 = Commercial Support =
 
 == Technical Support ==
-We offer a subscription plan for premium technical support via email at $1,899 per year per named contact.
+We offer a subscription plan for premium technical support via email at $1,899 per year per named contact. This service includes the LTS (Long-Term Support) maintenance versions for ZKGrails.
 
 == Custom Development ==
 We also provide services at $45/hour for:
