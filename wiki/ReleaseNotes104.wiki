@@ -1,5 +1,4 @@
 #summary Release Notes for ZKGrails 1.0.4
-#labels Featured
 
 = ZKGrails 1.0.4 Release Notes =
 
