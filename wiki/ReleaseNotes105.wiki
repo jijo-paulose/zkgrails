@@ -1,5 +1,4 @@
 #summary Release Notes for ZKGrails 1.0.5
-#labels Featured
 
 = ZKGrails 1.0.5 Release Notes =
 
@@ -8,6 +7,4 @@
 If you are expecting to use ZK 5.0.8, please wait for ZKGrails 1.1-M2 and later. For stability, we will not update ZK 5.0.8 or later into the ZKGrails 1.0 series.
 
 == Issues ==
-
- *  issue 197	(chanwit)	Breeze.jar is not available during the compilation process
- *  issue 198	(chanwit)	zkgrails not filtering FORWARD dispatchers
+ *  issue 210	(chanwit)	Update ZK to 5.0.9
