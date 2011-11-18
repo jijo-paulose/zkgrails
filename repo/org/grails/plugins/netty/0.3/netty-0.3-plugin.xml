@@ -1,0 +1,13 @@
+<plugin name='netty' version='0.3' grailsVersion='1.3 &gt; *'>
+  <author>Chanwit Kaewkasi</author>
+  <authorEmail>chanwit@gmail.com</authorEmail>
+  <title>Netty integration for Grails</title>
+  <description>\
+Netty integration for Grails.
+</description>
+  <documentation>http://grails.org/plugin/netty</documentation>
+  <type>NettyGrailsPlugin</type>
+  <resources />
+  <dependencies />
+  <behavior />
+</plugin>
