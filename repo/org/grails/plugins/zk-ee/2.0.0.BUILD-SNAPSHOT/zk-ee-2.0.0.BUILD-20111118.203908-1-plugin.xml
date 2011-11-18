@@ -1,0 +1,14 @@
+<plugin name='zk-ee' version='2.0.0.BUILD-SNAPSHOT' grailsVersion='1.3 &gt; *'>
+  <author>Chanwit Kaewkasi</author>
+  <title>Enterprise Addons for ZK plugin for Grails</title>
+  <description>\
+This plugin contains addition jars required for enabling ZK Enterprise features.
+</description>
+  <documentation>http://grails.org/plugin/zk-ee</documentation>
+  <type>ZkEeGrailsPlugin</type>
+  <resources />
+  <dependencies>
+    <plugin name='zk' version='version' />
+  </dependencies>
+  <behavior />
+</plugin>
