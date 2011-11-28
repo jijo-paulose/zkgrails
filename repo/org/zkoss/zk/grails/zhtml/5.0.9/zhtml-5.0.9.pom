@@ -7,16 +7,16 @@
   <version>5.0.9</version>
   <dependencies>
     <dependency>
-      <groupId>org.zkoss.common</groupId>
-      <artifactId>zweb</artifactId>
-      <version>5.0.9</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>org.aspectj</groupId>
       <artifactId>aspectjrt</artifactId>
       <version>1.6.10</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.zkoss.zk.grails</groupId>
+      <artifactId>zweb</artifactId>
+      <version>5.0.9</version>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.zkoss.zk.grails</groupId>
