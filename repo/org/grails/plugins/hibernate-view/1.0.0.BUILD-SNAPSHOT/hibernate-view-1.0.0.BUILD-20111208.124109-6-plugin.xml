@@ -1,0 +1,29 @@
+<plugin name='hibernate-view' version='1.0.0.BUILD-SNAPSHOT' grailsVersion='2.0 &gt; *'>
+  <author>Chanwit Kaewkasi</author>
+  <authorEmail>chanwit@gmail.com</authorEmail>
+  <title>Hibernate View Plugin</title>
+  <description>Data View support using Subselect for Hibernate.
+</description>
+  <documentation>http://grails.org/plugin/hibernate-view</documentation>
+  <type>HibernateViewGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <build>
+      <dependency group='com.google.code.maven-svn-wagon' name='maven-svn-wagon' version='1.4' />
+    </build>
+  </dependencies>
+  <plugins>
+    <compile>
+      <plugin group='org.grails.plugins' name='hibernate' version='2.0.0.BUILD-SNAPSHOT' />
+    </compile>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
