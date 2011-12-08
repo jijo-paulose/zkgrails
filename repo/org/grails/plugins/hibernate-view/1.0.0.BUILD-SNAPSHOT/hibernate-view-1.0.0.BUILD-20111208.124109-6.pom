@@ -1,0 +1,18 @@
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>hibernate-view</artifactId>
+  <packaging>zip</packaging>
+  <version>1.0.0.BUILD-SNAPSHOT</version>
+  <name>Hibernate View Plugin</name>
+  <description>Data View support using Subselect for Hibernate.
+</description>
+  <url>http://grails.org/plugin/hibernate-view</url>
+  <developers>
+    <developer>
+      <name>Chanwit Kaewkasi</name>
+      <email>chanwit@gmail.com</email>
+    </developer>
+  </developers>
+  <dependencies />
+</project>
