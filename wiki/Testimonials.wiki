@@ -15,7 +15,6 @@
 *_Cynthia Pepper_*
 
   "The project provides storage for DICOM medical image files. It will be used within a radiation oncology department.
-
   Thank you for your work in zkgrails.  It has helped create a user-friendly interface for the project."
 
 
