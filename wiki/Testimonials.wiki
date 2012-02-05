@@ -17,4 +17,4 @@
 
 *_Robert Rullo_*, General Manager, Global Architecture, SunGard Higher Education
 
-"Building the UI in the new Banner by using ZK Grails simplifies the development of the user interface for everyday web developers."
+  "Building the UI in the new Banner by using ZK Grails simplifies the development of the user interface for everyday web developers."
