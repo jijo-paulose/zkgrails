@@ -1,23 +1,21 @@
 #summary ZKGrails' Roadmap
 #labels Featured
 
-== ZKGrails 1.1 ==
-
-  * Cloud Portable (~~Partially for Cloud Foundry~~)
-
-~~Target Date - 2011 Q1~~
-
-  * Static Scaffolding Implementation
-  * Model-View-Presentation Framework
-  * CDI-like Event Handling
-  * Update to Grails 1.4
-
-Target Date - 2011 Q2
-
 == ZKGrails 2.0 ==
 
   * Cloud Portable
   * Update to Grails 2.0
-  * TBD
+  * Update to ZK 6
+  * Static Scaffolding Implementation
+  * MVVM Pattern
 
-Target Date - 2011 Q4
+
+Target Date - 2012 Q1
+
+== ZKGrails 2.1 ==
+
+  * Polyglot Persistence
+  * Update to Grails 2.1
+
+
+Target Date - 2012 Q3
