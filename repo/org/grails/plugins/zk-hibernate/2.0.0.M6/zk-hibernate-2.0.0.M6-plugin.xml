@@ -1,0 +1,33 @@
+<plugin name='zk-hibernate' version='2.0.0.M6' grailsVersion='2.0 &gt; *'>
+  <author>Chanwit Kaewkasi</author>
+  <authorEmail>chanwit@gmail.com</authorEmail>
+  <title>Hibernate support for ZKGrails</title>
+  <description>\
+This is the ZK/Hibernate sub-plugin for Grails.
+</description>
+  <documentation>http://grails.org/plugin/zk-hibernate</documentation>
+  <type>ZkHibernateGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='http://zkgrails.googlecode.com/svn/repo/' url='http://zkgrails.googlecode.com/svn/repo/' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+    <repository name='http://mavensync.zkoss.org/maven2/' url='http://mavensync.zkoss.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <build>
+      <dependency group='com.google.code.maven-svn-wagon' name='maven-svn-wagon' version='1.4' />
+    </build>
+  </dependencies>
+  <plugins>
+    <compile>
+      <plugin group='org.grails.plugins' name='zk' version='2.0.0.M6' />
+      <plugin group='org.grails.plugins' name='hibernate' version='2.0.1' />
+    </compile>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
