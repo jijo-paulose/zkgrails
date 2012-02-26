@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
+<?xml version="1.0" encoding="UTF-8"?><metadata>
   <groupId>org.grails.plugins</groupId>
   <artifactId>zk-hibernate</artifactId>
   <version>2.0.0.BUILD-SNAPSHOT</version>
   <versioning>
     <versions>
       <version>2.0.0.BUILD-SNAPSHOT</version>
+      <version>2.0.0.M6</version>
     </versions>
-    <lastUpdated>20111120130600</lastUpdated>
+    <lastUpdated>20120226171233</lastUpdated>
   </versioning>
 </metadata>
