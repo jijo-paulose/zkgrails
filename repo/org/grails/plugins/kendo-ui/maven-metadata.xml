@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>kendo-ui</artifactId>
+  <version>1.0.1.BUILD-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>1.0.1.BUILD-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20120316065920</lastUpdated>
+  </versioning>
+</metadata>
