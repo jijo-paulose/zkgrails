@@ -1,0 +1,36 @@
+<plugin name='kendo-ui' version='1.0.1.BUILD-SNAPSHOT' grailsVersion='2.0 &gt; *'>
+  <author>Chanwit Kaewkasi</author>
+  <authorEmail>chanwit@gmail.com</authorEmail>
+  <title>Kendo UI plugin</title>
+  <description>A Grails plugin to supply Kendo UI (kendoui.web-dataviz.2011.3.1129.open-source) dependencies.
+This plugin also supplies KnockoutJS 2.0.0 to support the ViewModel pattern (Will be dropped when Kendo-UI supports ViewModel natively).
+</description>
+  <documentation>http://grails.org/plugin/kendo-ui</documentation>
+  <type>KendoUiGrailsPlugin</type>
+  <resources>
+    <resource>KendoUiPluginResources</resource>
+    <resource>kendo.ui.KendoUiTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <build>
+      <dependency group='com.google.code.maven-svn-wagon' name='maven-svn-wagon' version='1.4' />
+    </build>
+  </dependencies>
+  <plugins>
+    <test>
+      <plugin group='org.grails.plugins' name='spock' version='0.6' />
+    </test>
+    <runtime>
+      <plugin group='org.grails.plugins' name='jquery' version='1.7.1' />
+    </runtime>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
