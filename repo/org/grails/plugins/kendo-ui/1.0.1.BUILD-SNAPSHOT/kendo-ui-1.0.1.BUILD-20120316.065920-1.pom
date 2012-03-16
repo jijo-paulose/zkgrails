@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>kendo-ui</artifactId>
+  <packaging>zip</packaging>
+  <version>1.0.1.BUILD-SNAPSHOT</version>
+  <name>Kendo UI plugin</name>
+  <description>A Grails plugin to supply Kendo UI (kendoui.web-dataviz.2011.3.1129.open-source) dependencies.
+This plugin also supplies KnockoutJS 2.0.0 to support the ViewModel pattern (Will be dropped when Kendo-UI supports ViewModel natively).
+</description>
+  <url>http://grails.org/plugin/kendo-ui</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License 3</name>
+      <url>http://www.gnu.org/licenses/gpl.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Chanwit Kaewkasi</name>
+      <email>chanwit@gmail.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>jquery</artifactId>
+      <version>1.7.1</version>
+      <type>zip</type>
+      <scope>runtime</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>xml-apis</groupId>
+          <artifactId>xml-apis</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>xml-apis</groupId>
+          <artifactId>xmlParserAPIs</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>xerces</groupId>
+          <artifactId>xmlParserAPIs</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>
