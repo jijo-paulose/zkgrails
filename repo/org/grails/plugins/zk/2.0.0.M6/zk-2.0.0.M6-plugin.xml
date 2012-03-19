@@ -60,6 +60,7 @@ and seamlessly integrates them with Grails' infrastructures.
     <resource>zk.hello.HelloViewModel</resource>
   </resources>
   <repositories>
+    <repository name='http://grails.org/plugins' url='http://grails.org/plugins' />
     <repository name='grailsCentral' url='http://plugins.grails.org' />
     <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
     <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
@@ -73,8 +74,8 @@ and seamlessly integrates them with Grails' infrastructures.
       <dependency group='com.h2database' name='h2' version='1.2.147' />
     </test>
     <build>
-      <dependency group='net.java.dev.inflector' name='inflector' version='0.7.0' />
       <dependency group='com.google.code.maven-svn-wagon' name='maven-svn-wagon' version='1.4' />
+      <dependency group='net.java.dev.inflector' name='inflector' version='0.7.0' />
     </build>
   </dependencies>
   <plugins />
