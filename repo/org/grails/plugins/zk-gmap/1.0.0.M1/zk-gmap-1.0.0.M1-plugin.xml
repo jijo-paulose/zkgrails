@@ -1,0 +1,25 @@
+<plugin name='zk-gmap' version='1.0.0.M1' grailsVersion='2.0 &gt; *'>
+  <author>Chanwit Kaewkasi</author>
+  <authorEmail>chanwit@gmail.com</authorEmail>
+  <title>Zk Gmap Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/zk-gmap</documentation>
+  <type>ZkGmapGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <build>
+      <dependency group='com.google.code.maven-svn-wagon' name='maven-svn-wagon' version='1.4' />
+    </build>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
