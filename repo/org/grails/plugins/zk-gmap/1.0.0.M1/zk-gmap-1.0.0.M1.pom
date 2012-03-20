@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>zk-gmap</artifactId>
+  <packaging>zip</packaging>
+  <version>1.0.0.M1</version>
+  <name>Zk Gmap Plugin</name>
+  <description>Brief summary/description of the plugin.
+</description>
+  <url>http://grails.org/plugin/zk-gmap</url>
+  <developers>
+    <developer>
+      <name>Chanwit Kaewkasi</name>
+      <email>chanwit@gmail.com</email>
+    </developer>
+  </developers>
+  <dependencies />
+</project>
