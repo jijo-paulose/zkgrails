@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>zk-gmap</artifactId>
+  <version>1.0.0.M1</version>
+  <versioning>
+    <versions>
+      <version>1.0.0.M1</version>
+    </versions>
+    <lastUpdated>20120320083113</lastUpdated>
+  </versioning>
+</metadata>
