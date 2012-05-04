@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>zk</artifactId>
+  <packaging>zip</packaging>
+  <version>2.0.0.BUILD-SNAPSHOT</version>
+  <name>ZKGrails: ZK plugin for Grails</name>
+  <description>
+Originated from Flyisland's ZK Plugin,
+ZKGrails adds and enhances the ZK's RIA capabilities
+and seamlessly integrates them with Grails' infrastructures.
+</description>
+  <url>http://grails.org/plugin/zk</url>
+  <developers>
+    <developer>
+      <name>Chanwit Kaewkasi</name>
+      <email>chanwit@gmail.com</email>
+    </developer>
+  </developers>
+  <dependencies />
+</project>
