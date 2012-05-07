@@ -7,18 +7,18 @@
 While a major version of ZKGrails will be released publicly every 4 months, the release cycle of LTS versions is agile! An LTS (milestone and bug fixing) release will be available in the LTS repository every 2 weeks.
 
 To access the private LTS repository, we offer the following subscription plans.
-  * $180 per 1-month per named contact.
-  * $350 per 2-month per named contact.
-  * $650 per 4-month per named contact.
-  * $1,899 per year per named contact.
+  * *$180* per 1-month per named contact.
+  * *$350* per 2-month per named contact.
+  * *$650* per 4-month per named contact.
+  * *$1,899* per year per named contact.
 This service includes premium technical support via email.
 
 == Custom Development ==
-We also provide services at $45/hr ($29/hr for plan subscribers) for:
+We also provide services at *$45/hr* ($29/hr for plan subscribers) for:
   * Developing or prototyping ZKGrails applications.
   * Implementing special features.
   * Creating custom builds.
 
-If you requires 30+ working hours per week, we offer a special weekly rate at $950/week ($770/week for plan subscribers).
+If you requires 30+ working hours per week, we offer *a special weekly rate* at *$950/week* ($770/week for plan subscribers).
 
 Response time is no later than 2 business days. Contact: _zkgrails at gmail dot com_ for allocating time slots.
