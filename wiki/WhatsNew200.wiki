@@ -1,0 +1,4 @@
+#summary What's new on ZKGrails 2.0
+#labels Featured
+
+= What's new - ZKGrails 2.0 =
