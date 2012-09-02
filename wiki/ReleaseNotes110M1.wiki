@@ -1,5 +1,4 @@
 #summary Release Notes for ZKGrails 1.1-M1
-#labels Featured
 
 = ZKGrails 1.1-M1 Release Notes =
 
