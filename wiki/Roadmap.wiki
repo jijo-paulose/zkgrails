@@ -1,21 +1,18 @@
 #summary ZKGrails' Roadmap
 #labels Featured
 
-== ZKGrails 2.0 ==
-
-  * Cloud Portable
-  * Update to Grails 2.0
-  * Update to ZK 6
-  * Static Scaffolding Implementation
-  * MVVM Pattern
-
-
-Target Date - 2012 Q1
-
 == ZKGrails 2.1 ==
 
-  * Polyglot Persistence
-  * Update to Grails 2.1
+  * Update to Grails 2.2
+  * Update to ZK 6.5
+
+Target Date - December 2012
+
+== ZKGrails 2.2 ==
+
+Target Date - April 2013
 
 
-Target Date - 2012 Q3
+== ZKGrails 3 ==
+
+Target Date - August 2013
