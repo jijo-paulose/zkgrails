@@ -14,7 +14,7 @@ To access the private LTS repository, we offer the following subscription plans.
 This service includes premium technical support via email.
 
 == Custom Development ==
-We also provide services at *$45/hr* ($29/hr for plan subscribers) for:
+We also provide services at $29/hr ($45/hr for non-subscribers) for:
   * Developing or prototyping ZKGrails applications.
   * Implementing special features.
   * Creating custom builds.
