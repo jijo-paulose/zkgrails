@@ -13,6 +13,22 @@ To access the private LTS repository, we offer the following subscription plans.
   * *$1,899* per year per named contact.
 This service includes premium technical support via email.
 
+||               || Non-subscription || Commercial plan      ||
+|| Opensource plugin      ||  ✓    ||            ✓          ||
+|| 4-month major releases ||  ✓    ||            ✓          ||
+|| Peer supports          ||  ✓    ||            ✓          ||
+|| LTS repository access  ||       ||            ✓          ||
+|| 2-week private builds  ||       ||            ✓          ||
+|| Milestone private builds||       ||            ✓          ||
+|| Extra plugins          ||       ||            ✓          ||
+|| Private supports       ||       ||            ✓          ||
+|| Prioritized hot fixes  ||       ||            ✓          ||
+|| Prioritized feature requests||  ||            ✓          ||
+
+
+
+
+
 == Custom Development ==
 We also provide services at *$29/hr* ($45/hr for non-subscribers) for:
   * Developing or prototyping ZKGrails applications.
