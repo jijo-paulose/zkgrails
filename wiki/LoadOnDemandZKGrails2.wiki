@@ -72,13 +72,17 @@ This will also create `grails-apps/composers/ondemand/EmployeeComposer.groovy` f
 
 Please note that `${z.resource(...)}` will pick an image from `web-app/ext/images` to avoid conflictions with the Resources plugin.
 
-== Edit `EmployeeComposer` ==
+== Edit `EmployeeComposer.groovy` ==
 
-From the code, you may see 2 properties `lstEmployee`, and `pagEmployee`. Both are injected by `GrailsComposer`, which is a subclass of `GenericForwardComposer`. They, apparently, represents listbox and paging components from your .zul file.
+From the code, you may find the use of `$(...)` in several places. It's a jQuery-like selector that accepts CSS-3 syntax and queries UI components for you. Rather than injecting UI components, using the selector works better when UI components are expected to change frequently.
 
-You may notice that there is `afterCompose` closure. This closure is run by doAfterCompose, and it's a Groovy place to initialize your components.
+Apparently, `$('#pagEmployee')` selects _all_ the paging component with `id="pagEmployee"`. Note that a selector always return a list of UI components similar to jQuery. So, when we would like to refer to a single component, we have to get the first one using subscription `[0]`.
 
-The auto-wired event handle `onPaging_pagEmployee` will be called everytime you click pagEmployee to change the active page. Note that, the only argument of the handler must be `ForwardEvent` or `Event` to make it work.
+You may notice that there is a closure named `afterCompose`. This closure is invoked by doAfterCompose, and it's a Groovy place to initialize your UI. 
+
+We use `.on('paging', { ... })` to wire a `Paging` event handle to `pagEmployee`. The event will be fired everytime you click `pagEmployee` to change the active page. Note that, the argument of the handler will be of type `PagingEvent` which implements interface `Event`.
+
+An interesting selector is `$('#lstEmployee listitem')` which selects all `listitem` elements inside `lstEmployee`. We select and detach them out of `lstEmployee` everytime before adding a new set of `listitem` components with new data.
 
 I also show you the use of Groovy's default argument value declared at `redraw` method. That is, calling `redraw()` in `afterCompose` means `redraw(0)`.
 
