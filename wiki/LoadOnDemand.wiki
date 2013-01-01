@@ -1,5 +1,4 @@
 #summary A tutorial to implement the load data on-demand UI.
-#labels Featured
 
 Updated for ZKGrails 1.0 and Grails 1.3.5
 
