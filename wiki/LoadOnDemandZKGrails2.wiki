@@ -89,7 +89,7 @@ An interesting selector is `$('#lstEmployee listitem')` which selects all `listi
 
 I also show you the use of Groovy's default argument value declared at `redraw` method. That is, calling `redraw()` in `afterCompose` means `redraw(0)`.
 
-Also in `redraw` method, there are two places to use dynamic methods added by ZKGrails. The first one is listbox#clear, of which removes all listitem. The second one is append, which accepts component construction via ZK Builder.
+Also in `redraw` method, there is the dynamic method `append`, which accepts component construction via ZK Builder.
 
 {{{
 package ondemand
