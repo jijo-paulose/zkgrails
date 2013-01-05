@@ -9,13 +9,13 @@ For ZKGrails 1, please refer to this tutorial: LoadOnDemand.
 
 == Create a Grails project ==
 
-You need to prepare a Grails project for this tutorial by type:
+Prepare a Grails project for this tutorial by type creating the app:
 
 $ `grails create-app ondemand`
 
 == Install ZKGrails ==
 
-Next, you need to install ZKGrails. Put the following dependencies into the `plugins` block in your `conf/BuildConfig.groovy`:
+Next, install ZKGrails. Put the following dependencies into the `plugins` block in your `conf/BuildConfig.groovy`:
 
 {{{
     compile ":zk:2.1.0"
@@ -24,7 +24,7 @@ Next, you need to install ZKGrails. Put the following dependencies into the `plu
 
 == Create a domain class ==
 
-We are going to demonstrate with a simple domain class, Employee. To create domain class in Grails, simply use the command `create-domain-class`, following by your class name:
+We are going to demonstrate with a simple domain class, `Employee`. To create a domain class in Grails, simply use the command `create-domain-class`, following by your class name:
 
 $ `grails create-domain-class employee`
 
@@ -79,17 +79,17 @@ Please note that `${z.resource(...)}` will pick an image from `web-app/ext/image
 
 From the code, you may find the use of `$(...)` in several places. It's a jQuery-like selector that accepts CSS-3 syntax and queries UI components for you. Rather than injecting UI components, using the selector works better when UI components are expected to change frequently.
 
-Apparently, `$('#pagEmployee')` selects _all_ the paging component with `id="pagEmployee"`. Note that a selector always return a list of UI components similar to jQuery. So, when we would like to refer to a single component, we have to get the first one using subscription `[0]`.
+Apparently, `$('#pagEmployee')` selects _all_ the paging component with `id="pagEmployee"`. Note that a selector always return a list of UI components, similar behaviour done by jQuery. So, when we would like to refer to a single component, we have to get the first one using subscription `[0]`.
 
 You may notice that there is a closure named `afterCompose`. This closure is invoked by doAfterCompose, and it's a Groovy place to initialize your UI. 
 
-We use `.on('paging', { ... })` to wire a `Paging` event handle to `pagEmployee`. The event will be fired everytime you click `pagEmployee` to change the active page. Note that, the argument of the handler will be of type `PagingEvent` which implements interface `Event`.
+We use `.on('paging', { ... })` to wire a `Paging` event handler to `pagEmployee`. The event will be fired every time you click `pagEmployee` to change the active page. Note that, the argument of the handler will be of type `PagingEvent` which implements interface `Event`.
 
-An interesting selector is `$('#lstEmployee listitem')` which selects all `listitem` elements inside `lstEmployee`. We select and detach them out of `lstEmployee` everytime before adding a new set of `listitem` components with new data.
+An interesting selector is `$('#lstEmployee listitem')` which selects all `listitem` elements inside `lstEmployee`. We select and detach them out of `lstEmployee` every time before adding a new set of `listitem` components with new data.
 
 I also show you the use of Groovy's default argument value declared at `redraw` method. That is, calling `redraw()` in `afterCompose` means `redraw(0)`.
 
-Also in `redraw` method, there is the dynamic method `append`, which accepts component construction via ZK Builder.
+Also in method `redraw`, there is a call to the dynamic method `append`, which accepts component construction via the ZK Builder.
 
 {{{
 package ondemand
