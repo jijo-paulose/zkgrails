@@ -105,13 +105,14 @@ class EmployeeComposer {
         $('#pagEmployee').on('paging', {
             redraw($(it).getActivePage())
         })
+
         redraw()
     }
 
     def redraw(page=0) {
         def pageSize = $('#pagEmployee').getPageSize()
         def list = Employee.list(offset: page * pageSize,
-                                 max: pageSize)
+                                 max:    pageSize)
 
         $('#lstEmployee listitem').detach()
         $('#lstEmployee').append {
