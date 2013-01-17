@@ -2,7 +2,7 @@
 
 =News Archive=
 
- * *30-Nov-2009* ZKGrails 0.7.6 has been released. This version includes ZK 3.6.3. [http://code.google.com/p/zkgrails/wiki/ReleaseNote076 Release Note].
+ * `*30-Nov-2009*` ZKGrails 0.7.6 has been released. This version includes ZK 3.6.3. [http://code.google.com/p/zkgrails/wiki/ReleaseNote076 Release Note].
  * *23-Oct-2009* ZKGrails releases 1.0-M1. The license of this release is changed to LGPL.
  * *19-Oct-2009* ZKGrails starts the official Github [http://github.com/zkgrails repository].
  * *29-Aug-2009* ZKGrails has its own plugin repository.
@@ -23,4 +23,3 @@
  * *13-Sep-2008* ZKGrails 0.6 is released ! ZK 3.5 has come out recently, and now you can experience its new set of features in the current version of ZKGrails.
  * *31-Aug-2008* ZK 3.5.0-FL has been released for testing. ZKGrails will be updated towards ZK 3.5.0 as well.
  * *19-Aug-2008* ZK Plugin for Grails version 0.5 has been released.
-
