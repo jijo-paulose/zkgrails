@@ -1,7 +1,17 @@
 #summary News archive for ZKGrails
 
 =News Archive=
-
+ * *`21-Dec-2010`* ZKGrails 1.0.1 has been released. This is the first maintenance release for 1.0 series  [http://code.google.com/p/zkgrails/wiki/ReleaseNotes101 Release Notes].
+ * *`02-Nov-2010`* ZKGrails 1.0 has been released. This version ships with ZK 5.0.5 and the new Breeze theme [http://code.google.com/p/zkgrails/wiki/ReleaseNotes100 Release Notes].
+ * *`21-Oct-2010`* ZKGrails 1.0-RC3 has been released. This is the last release candidate for 1.0 series. [http://code.google.com/p/zkgrails/wiki/ReleaseNotes100RC3 Release Notes].
+ * *`18-Oct-2010`* ZKGrails 1.0-RC2 has been released. This is the second release candidate for 1.0 series. [http://code.google.com/p/zkgrails/wiki/ReleaseNotes100RC2 Release Notes].
+ * *`12-Oct-2010`* ZKGrails 1.0-RC1 has been released. This is the first release candidate for 1.0 series. [http://code.google.com/p/zkgrails/wiki/ReleaseNotes100RC1 Release Notes].
+ * *`01-Oct-2010`* ZKGrails 1.0-M5 has been released. This version includes ZK 5.0.4. [http://code.google.com/p/zkgrails/wiki/ReleaseNotes100M5 Release Notes].
+ * *`14-May-2010`* ZKGrails 1.0-M4 has been released. This version includes ZK 5.0.2. [http://code.google.com/p/zkgrails/wiki/ReleaseNotes100M4 Release Notes].
+ * *`05-Apr-2010`* ZKGrails 1.0-M3 has been released. This version includes ZK 5.0.1. [http://code.google.com/p/zkgrails/wiki/ReleaseNotes100M3 Release Notes].
+ * *`23-Mar-2010`* ZKGrails 0.7.8 has been released. This maintenance release includes ZK 3.6.4. [http://code.google.com/p/zkgrails/wiki/ReleaseNotes078 Release Notes].
+ * *`05-Feb-2010`* ZKGrails 1.0-M2 has been released. This version includes ZK 5.0. [http://code.google.com/p/zkgrails/wiki/ReleaseNotes100M2 Release Notes].
+ * *`26-Jan-2010`* ZK 5 has been released. ZKGrails 1.0-M2 will be the first milestone to support it.
  * *`30-Nov-2009`* ZKGrails 0.7.6 has been released. This version includes ZK 3.6.3. [http://code.google.com/p/zkgrails/wiki/ReleaseNote076 Release Note].
  * *`23-Oct-2009`* ZKGrails releases 1.0-M1. The license of this release is changed to LGPL.
  * *`19-Oct-2009`* ZKGrails starts the official Github [http://github.com/zkgrails repository].
