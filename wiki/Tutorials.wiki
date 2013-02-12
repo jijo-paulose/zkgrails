@@ -1,0 +1,6 @@
+#summary List of ZKGrails tutorials
+#labels Featured
+
+= Tutorials =
+
+  * LoadOnDemand2
