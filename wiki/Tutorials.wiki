@@ -3,4 +3,4 @@
 
 = Tutorials =
 
-  * LoadOnDemandZkGrails2
+  * LoadOnDemandZKGrails2
