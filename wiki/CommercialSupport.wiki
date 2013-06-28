@@ -7,8 +7,6 @@
 While a major version of ZKGrails will be released publicly every 4 months, the release cycle of LTS versions is far shorter! An LTS (milestone and bug fixing) release will be available in the LTS repository every 2 weeks.
 
 To access the private LTS repository, we offer the following subscription plans.
-  * *$180* per 1-month per named contact.
-  * *$350* per 2-month per named contact.
   * *$650* per 4-month per named contact.
   * *$1,899* per year per named contact.
 This service includes premium technical support via email.
