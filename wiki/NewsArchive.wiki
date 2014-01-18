@@ -1,6 +1,18 @@
 #summary News archive for ZKGrails
 
 =News Archive=
+ * *`04-May-2012`* ZKGrails 2.0.0.M8 with ZK 6.0.1 has been released.
+ * *`04-Apr-2012`* ZKGrails 2.0.0.M7 has been released.
+ * *`28-Mar-2012`* ZKGrails 2.0.0.M6 has been released.
+ * *`23-Feb-2012`* ZKGrails 2.0.0.M5 has been released.
+ * *`15-Feb-2012`* ZKGrails 2.0.0.M4 has been released.
+ * *`13-Feb-2012`* ZKGrails 2.0.0.M3 has been released.
+ * *`07-Feb-2012`* ZKGrails 2.0.0.M2 has been released. We are moving towards the GA!
+ * *`18-Oct-2011`* ZKGrails 1.0.6 has been released. This version has no bug fixing. It is an update to support ZK 5.0.9. [http://code.google.com/p/zkgrails/wiki/ReleaseNotes106 Release Notes].
+ * *`22-Aug-2011`* ZKGrails 1.0.5 has been released. This version contains minor bug fixes for the 1.0 series. [http://code.google.com/p/zkgrails/wiki/ReleaseNotes105 Release Notes].
+ * *`23-May-2011`* ZKGrails 1.0.4 has been released. This version ships with the hotfix release ZK 5.0.7.1. It also contains a feature to better support editing ZUL in ZK Studio [http://code.google.com/p/zkgrails/wiki/ReleaseNotes104 Release Notes].
+ * *`12-May-2011`* We are releasing two versions of ZKGrails today. ZKGrails 1.0.3 ([http://code.google.com/p/zkgrails/wiki/ReleaseNotes103 Release Notes]) is the third maintenance release for 1.0 series, and ZKGrails 1.1-M1 ([http://code.google.com/p/zkgrails/wiki/ReleaseNotes110M1 Release Notes]) is the first milestone of the 1.1 series. Both ship with ZK 5.0.7.
+ * *`25-Feb-2011`* ZKGrails 1.0.2 has been released. This is the second maintenance release for 1.0 series and it ships with ZK 5.0.6 [http://code.google.com/p/zkgrails/wiki/ReleaseNotes102 Release Notes].
  * *`21-Dec-2010`* ZKGrails 1.0.1 has been released. This is the first maintenance release for 1.0 series  [http://code.google.com/p/zkgrails/wiki/ReleaseNotes101 Release Notes].
  * *`02-Nov-2010`* ZKGrails 1.0 has been released. This version ships with ZK 5.0.5 and the new Breeze theme [http://code.google.com/p/zkgrails/wiki/ReleaseNotes100 Release Notes].
  * *`21-Oct-2010`* ZKGrails 1.0-RC3 has been released. This is the last release candidate for 1.0 series. [http://code.google.com/p/zkgrails/wiki/ReleaseNotes100RC3 Release Notes].
