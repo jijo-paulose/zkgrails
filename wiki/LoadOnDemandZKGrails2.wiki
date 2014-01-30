@@ -113,7 +113,9 @@ class EmployeeComposer {
         def list = Employee.list(offset: page * pageSize,
                                  max:    pageSize)
 
-        $('#lstEmployee listitem').detach()
+        try {
+            $('#lstEmployee listitem').detach()
+        } catch(ignored) { /* do nothing */ }
         $('#lstEmployee').append {
             list.each { e ->
                 listitem(value: e) {
